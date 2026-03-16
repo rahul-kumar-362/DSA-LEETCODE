@@ -36,7 +36,7 @@ public:
 
         if(n==1)return nums[0];
         amt[0]=nums[0];
-        amt[1]=max(amt[0],amt[1]);
+        amt[1]=max(nums[0],nums[1]);
 
         for(int i=2;i<n;i++){
             amt[i]=max(amt[i-1],nums[i]+amt[i-2]);
