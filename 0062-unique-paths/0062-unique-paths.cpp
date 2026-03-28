@@ -1,31 +1,20 @@
 class Solution {
 public:
-
-    
-   vector<vector<int>>dp;
-  int gridWays(int r,int c,int m,int n)
-  {
-
-    if(dp[r][c]!=-1){
-        return dp[r][c];
-    }
-    if(r==m-1 || c==n-1)//Base Case
-    {
-      return 1;
-    }
-    if(r>=m || c>=n)//Agar side wale cells mai pohcha toh
-    {
-      return 0;
-    }
-
-    int val1=gridWays(r,c+1,m,n);//Right call
-    int  val2=gridWays(r+1,c,m,n);//Down call
-    return dp[r][c] = val1+val2;
-      }
-
-
     int uniquePaths(int m, int n) {
-        dp.resize(m, vector<int>(n, -1)); // initialize
-        return gridWays(0,0,m,n);
+        
+        vector<vector<int>> dp(m, vector<int>(n, 0));
+
+        // base case
+        for(int i = 0; i < m; i++) dp[i][0] = 1;
+        for(int j = 0; j < n; j++) dp[0][j] = 1;
+
+        // fill table
+        for(int i = 1; i < m; i++){
+            for(int j = 1; j < n; j++){
+                dp[i][j] = dp[i-1][j] + dp[i][j-1];
+            }
+        }
+
+        return dp[m-1][n-1];
     }
 };
