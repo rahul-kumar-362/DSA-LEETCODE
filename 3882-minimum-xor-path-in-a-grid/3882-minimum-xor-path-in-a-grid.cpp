@@ -1,37 +1,51 @@
 class Solution {
 public:
     int minCost(vector<vector<int>>& grid) {
+
+        //Ye le BitseT version
+
         int m = grid.size();
         int n = grid[0].size();
 
-        vector<vector<unordered_set<int>>> dp(m, vector<unordered_set<int>>(n));
+        vector<vector<bitset<1024>>> dp(m, vector<bitset<1024>>(n));
 
-        dp[0][0].insert(grid[0][0]);
+        // starting point
+        dp[0][0][grid[0][0]] = 1;
 
         for(int i = 0; i < m; i++){
             for(int j = 0; j < n; j++){
 
                 if(i == 0 && j == 0) continue;
 
+                bitset<1024> curr;
+
+                // from top
                 if(i > 0){
-                    for(int val : dp[i-1][j]){
-                        dp[i][j].insert(val ^ grid[i][j]);
+                    for(int x = 0; x < 1024; x++){
+                        if(dp[i-1][j][x]){
+                            curr[x ^ grid[i][j]] = 1;
+                        }
                     }
                 }
 
+                // from left
                 if(j > 0){
-                    for(int val : dp[i][j-1]){
-                        dp[i][j].insert(val ^ grid[i][j]);
+                    for(int x = 0; x < 1024; x++){
+                        if(dp[i][j-1][x]){
+                            curr[x ^ grid[i][j]] = 1;
+                        }
                     }
                 }
+
+                dp[i][j] = curr;
             }
         }
 
-        int ans = INT_MAX;
-        for(int val : dp[m-1][n-1]){
-            ans = min(ans, val);
+        // minimum XOR find karo
+        for(int x = 0; x < 1024; x++){
+            if(dp[m-1][n-1][x]) return x;
         }
 
-        return ans;
+        return -1;
     }
 };
