@@ -1,56 +1,47 @@
 class Solution {
 public:
-    int orangesRotting(vector<vector<int>>& arr) {
-        int m=arr.size();
-        int n=arr[0].size();
+    int orangesRotting(vector<vector<int>>& grid) {
+        int m = grid.size(), n = grid[0].size();
 
-    queue<pair<int,int>> q;
-    int fresh=0;
+        queue<pair<int,int>> q;
+        int fresh = 0;
 
-    // Initial scan
-    for(int i=0;i<m;i++){
-        for(int j=0;j<n;j++){
-            if(arr[i][j]==2){
-                q.push({i,j});
-            }
-            else if(arr[i][j]==1){
-                fresh++;
+        // scan
+        for(int i=0;i<m;i++){
+            for(int j=0;j<n;j++){
+                if(grid[i][j]==2) q.push({i,j});
+                else if(grid[i][j]==1) fresh++;
             }
         }
-    }
 
-    vector<vector<int>> dir={{1,0},{0,1},{-1,0},{0,-1}};
+        if(fresh == 0) return 0; // 🔥 early exit
 
-    int minutes = 0;
+        int dx[4] = {1,0,-1,0};
+        int dy[4] = {0,1,0,-1};
 
-    while(!q.empty()){
-        int sz = q.size();
-        bool changed = false; // check if infection spread this round
+        int minutes = -1;
 
-        while(sz--){
-            pair<int,int> UparWala = q.front();
-            q.pop();
+        while(!q.empty()){
+            int sz = q.size();
+            minutes++;
 
-            int aage = UparWala.first;
-            int piche = UparWala.second;
+            while(sz--){
+                auto [x,y] = q.front();
+                q.pop();
 
-            for(int k=0;k<4;k++){
-                int D1 = aage + dir[k][0];
-                int D2 = piche + dir[k][1];
+                for(int k=0;k<4;k++){
+                    int nx = x + dx[k];
+                    int ny = y + dy[k];
 
-                if(D1>=0 && D1<m && D2>=0 && D2<n && arr[D1][D2]==1){
-                    arr[D1][D2]=2;
-                    q.push({D1,D2});
-                    fresh--;
-                    changed = true;
+                    if(nx>=0 && nx<m && ny>=0 && ny<n && grid[nx][ny]==1){
+                        grid[nx][ny] = 2;
+                        q.push({nx,ny});
+                        fresh--;
+                    }
                 }
             }
         }
 
-        if(changed) minutes++; // only if something rotted
-    }
-
-    if(fresh != 0)  return -1;
-    return minutes;
+        return (fresh==0 ? minutes : -1);
     }
 };
