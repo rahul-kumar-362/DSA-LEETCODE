@@ -27,6 +27,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- | ------- |
 | [0042-trapping-rain-water](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0042-trapping-rain-water/) | Hard |
 | [0053-maximum-subarray](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0053-maximum-subarray/) | Medium |
+| [0074-search-a-2d-matrix](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0074-search-a-2d-matrix/) | Medium |
 | [0174-dungeon-game](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0174-dungeon-game/) | Hard |
 | [0198-house-robber](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0198-house-robber/) | Medium |
 | [0240-search-a-2d-matrix-ii](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0240-search-a-2d-matrix-ii/) | Medium |
@@ -35,6 +36,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Matrix
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0074-search-a-2d-matrix](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0074-search-a-2d-matrix/) | Medium |
 | [0174-dungeon-game](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0174-dungeon-game/) | Hard |
 | [0240-search-a-2d-matrix-ii](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0240-search-a-2d-matrix-ii/) | Medium |
 | [0994-rotting-oranges](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0994-rotting-oranges/) | Medium |
@@ -70,6 +72,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Binary Search
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0074-search-a-2d-matrix](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0074-search-a-2d-matrix/) | Medium |
 | [0240-search-a-2d-matrix-ii](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0240-search-a-2d-matrix-ii/) | Medium |
 | [0875-koko-eating-bananas](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0875-koko-eating-bananas/) | Medium |
 <!---LeetCode Topics End-->
