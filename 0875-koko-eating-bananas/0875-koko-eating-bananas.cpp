@@ -5,6 +5,10 @@ public:
 
         long long lo=1;
         
+        //💀 FINAL INSIGHT
+
+// Binary search tab lagta hai jab answer space me
+// “first true” ya “first valid” find karna ho
 
         while(lo<=hi){
 
