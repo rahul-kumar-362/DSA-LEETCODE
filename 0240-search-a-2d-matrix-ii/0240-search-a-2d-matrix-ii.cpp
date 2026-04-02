@@ -1,21 +1,29 @@
 class Solution {
 public:
     bool searchMatrix(vector<vector<int>>& matrix, int target) {
-        //first lets try the Linear Search ALGO
+//        ⏱️ Complexity : 
+//           Time: O(m + n) 🔥
+//           Space: O(1)
 
         int m=matrix.size();
         int n=matrix[0].size();
 
-        int lo=0;
-        int hi=m*n-1;
-        while(lo<=hi){
-            int mid=lo+(hi-lo)/2;
-            int currow=mid/n;
-            int currcol=mid%n;
-            if(matrix[currow][currcol]==target) return true;
-            else if(matrix[currow][currcol]<target)lo=mid+1;
-            else hi=mid-1;
+        int row=0;
+        int col=n-1;
+
+
+        while(row<m && col>=0){//jabtak valid row aur col
+            if(matrix[row][col]==target)return true;
+            else if(matrix[row][col]>target){//LEFT jao
+                col--;
+            }
+            else{
+                row++;//go down
+            }
         }
+
+
+
         return false;
     }
 };
