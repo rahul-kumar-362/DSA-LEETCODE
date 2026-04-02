@@ -9,7 +9,7 @@ public:
         int n=matrix[0].size();
 
         int row=0;
-        int col=n-1;
+        int col=n-1;//SINCE starting from TOP-right Corner
 
 
         while(row<m && col>=0){//jabtak valid row aur col
