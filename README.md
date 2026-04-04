@@ -32,6 +32,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0198-house-robber](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0198-house-robber/) | Medium |
 | [0240-search-a-2d-matrix-ii](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0240-search-a-2d-matrix-ii/) | Medium |
 | [0260-single-number-iii](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0260-single-number-iii/) | Medium |
+| [0540-single-element-in-a-sorted-array](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0540-single-element-in-a-sorted-array/) | Medium |
 | [0875-koko-eating-bananas](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0875-koko-eating-bananas/) | Medium |
 | [0994-rotting-oranges](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0994-rotting-oranges/) | Medium |
 ## Matrix
@@ -75,6 +76,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- | ------- |
 | [0074-search-a-2d-matrix](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0074-search-a-2d-matrix/) | Medium |
 | [0240-search-a-2d-matrix-ii](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0240-search-a-2d-matrix-ii/) | Medium |
+| [0540-single-element-in-a-sorted-array](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0540-single-element-in-a-sorted-array/) | Medium |
 | [0875-koko-eating-bananas](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0875-koko-eating-bananas/) | Medium |
 ## Bit Manipulation
 | Problem Name | Difficulty |
