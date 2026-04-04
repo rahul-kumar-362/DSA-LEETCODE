@@ -8,6 +8,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- | ------- |
 | [0062-unique-paths](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0062-unique-paths/) | Medium |
 | [0070-climbing-stairs](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0070-climbing-stairs/) | Easy |
+| [1248-count-number-of-nice-subarrays](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/1248-count-number-of-nice-subarrays/) | Medium |
 ## Dynamic Programming
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -35,6 +36,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0540-single-element-in-a-sorted-array](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0540-single-element-in-a-sorted-array/) | Medium |
 | [0875-koko-eating-bananas](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0875-koko-eating-bananas/) | Medium |
 | [0994-rotting-oranges](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0994-rotting-oranges/) | Medium |
+| [1248-count-number-of-nice-subarrays](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/1248-count-number-of-nice-subarrays/) | Medium |
 ## Matrix
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -82,4 +84,16 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0260-single-number-iii](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0260-single-number-iii/) | Medium |
+## Hash Table
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [1248-count-number-of-nice-subarrays](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/1248-count-number-of-nice-subarrays/) | Medium |
+## Sliding Window
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [1248-count-number-of-nice-subarrays](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/1248-count-number-of-nice-subarrays/) | Medium |
+## Prefix Sum
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [1248-count-number-of-nice-subarrays](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/1248-count-number-of-nice-subarrays/) | Medium |
 <!---LeetCode Topics End-->
