@@ -26,6 +26,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0001-two-sum](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0001-two-sum/) | Easy |
 | [0042-trapping-rain-water](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0042-trapping-rain-water/) | Hard |
 | [0053-maximum-subarray](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0053-maximum-subarray/) | Medium |
 | [0074-search-a-2d-matrix](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0074-search-a-2d-matrix/) | Medium |
@@ -87,6 +88,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Hash Table
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0001-two-sum](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0001-two-sum/) | Easy |
 | [1248-count-number-of-nice-subarrays](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/1248-count-number-of-nice-subarrays/) | Medium |
 ## Sliding Window
 | Problem Name | Difficulty |
