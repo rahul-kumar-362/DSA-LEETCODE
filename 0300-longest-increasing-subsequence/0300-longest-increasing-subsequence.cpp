@@ -1,16 +1,20 @@
 class Solution {
 public:
-    int lengthOfLIS(vector<int>& nums) { //O(n^2) T.C. 
+    int lengthOfLIS(vector<int>& nums) {
+        
+        //Yaha par 1 trick use karenge bada hua toh add aur chota hua toh replace
+        vector<int>temp;
         int n=nums.size();
-        vector<int>dp(n,1);
         for(int i=0;i<n;i++){
-            for(int j=0;j<i;j++){//past only
-
-                if(nums[j]<nums[i]){//increasing condition
-                    dp[i]=max(dp[i],dp[j]+1);
-                }
+            auto it=lower_bound(temp.begin(),temp.end(),nums[i]);
+            //isse bada wala aajayega
+            if(it==temp.end()){
+                temp.push_back(nums[i]);
+            }
+            else{
+                *it=nums[i];//updated
             }
         }
-        return *max_element(dp.begin(),dp.end());
+        return temp.size();
     }
 };
