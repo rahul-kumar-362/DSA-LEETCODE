@@ -1,9 +1,13 @@
 class Solution {
 public:
+
+    void solve(vector<char>& s,int i){
+        if(i>s.size()/2)return ;
+        swap(s[i],s[s.size()-i-1]);
+        solve(s,i+1);
+    }
     void reverseString(vector<char>& s) {
         //extra memory nahi chaiye
-        for(int i=0;i<s.size()/2;i++){
-            swap(s[i],s[s.size()-i-1]);
-        }
+        solve (s,0);
     }
 };
