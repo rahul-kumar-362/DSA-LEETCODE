@@ -32,6 +32,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0042-trapping-rain-water](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0042-trapping-rain-water/) | Hard |
 | [0053-maximum-subarray](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0053-maximum-subarray/) | Medium |
 | [0074-search-a-2d-matrix](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0074-search-a-2d-matrix/) | Medium |
+| [0078-subsets](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0078-subsets/) | Medium |
 | [0174-dungeon-game](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0174-dungeon-game/) | Hard |
 | [0198-house-robber](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0198-house-robber/) | Medium |
 | [0228-summary-ranges](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0228-summary-ranges/) | Easy |
@@ -95,6 +96,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Bit Manipulation
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0078-subsets](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0078-subsets/) | Medium |
 | [0260-single-number-iii](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0260-single-number-iii/) | Medium |
 ## Hash Table
 | Problem Name | Difficulty |
@@ -109,4 +111,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [1248-count-number-of-nice-subarrays](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/1248-count-number-of-nice-subarrays/) | Medium |
+## Backtracking
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0078-subsets](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0078-subsets/) | Medium |
 <!---LeetCode Topics End-->
