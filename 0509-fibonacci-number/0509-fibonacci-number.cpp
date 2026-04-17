@@ -10,6 +10,7 @@ public:
 
 
 
+//T.C and S.C === O(N)
 
     int solve(int n,vector<int>&dp){
         if(n==1 || n==0){
