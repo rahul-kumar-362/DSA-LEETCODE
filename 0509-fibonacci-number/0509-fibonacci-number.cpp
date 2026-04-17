@@ -11,11 +11,11 @@ public:
 
 
 
-    int solve(int n,unordered_map<int,int>&dp){
+    int solve(int n,vector<int>&dp){
         if(n==1 || n==0){
             return n;
         }
-        if(dp.count(n)){ //if already calculated ...
+        if(dp[n]!=-1){ //if already calculated ...
             return dp[n];
         }
 
@@ -24,7 +24,7 @@ public:
     }
     int fib(int n){
         //use memoization
-        unordered_map<int,int>dp;
+        vector<int>dp(n+1,-1);
         return solve(n,dp);
     }
 };
