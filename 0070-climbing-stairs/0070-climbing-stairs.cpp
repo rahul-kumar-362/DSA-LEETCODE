@@ -1,42 +1,33 @@
 class Solution {
 public:
-
-
-//     🔥 Rahul (Important Pattern)
-
-// This problem teaches the most important DP pattern in LeetCode:
-
-// DP on Fibonacci
-
-// Same pattern appears in:
-
-// • House Robber
-// • Min Cost Climbing Stairs
-// • Decode Ways
-// • Fibonacci
-// • Tribonacci
-
-
-
-    //O(2^N)
-
-
-    int climb(int n, vector<int>& dp)
-    {
-        if(n < 4) return n;
-
-        if(dp[n] != -1)
-            return dp[n];
-
-        int ans1 = climb(n-1, dp);
-        int ans2 = climb(n-2, dp);
-
-        dp[n] = ans1 + ans2;
-
-        return dp[n];
-    }
     int climbStairs(int n) {
-        vector<int> dp(n+1,-1);
-        return climb(n, dp);
+        
+        //striver GuruJI ... 
+
+        if(n==0 || n==1)return 1;//kyuki waha par 1 hi way possible hoga
+
+
+        //if You'll JUMP 1 index  cS(i-1)
+
+        //if you'LL jump 2 stairs  cS(i-2)
+
+
+
+        //AREY BHAI .. that is JUST a Fibbonacci
+
+
+        //therefore
+
+        int prev2=1;
+        int prev1=1;
+        for(int i=2;i<=n;i++){
+
+            int current=prev1+prev2;
+            prev2=prev1;
+            prev1=current;
+        }
+        return prev1;
+
+
     }
 };
