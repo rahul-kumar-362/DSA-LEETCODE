@@ -26,7 +26,7 @@ public:
     int fib(int n){
         //use Tabulation
 
-       // if(n==0)return 0;
+        if(n==0)return 0;
         vector<int>dp(n+1,0);
 
         dp[0]=0;
