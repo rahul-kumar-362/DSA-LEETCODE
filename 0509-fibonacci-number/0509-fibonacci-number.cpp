@@ -20,7 +20,7 @@ public:
         }
 
 
-        return dp[n]=fib(n-1)+fib(n-2);
+        return dp[n]=solve(n-1,dp)+solve(n-2,dp);
     }
     int fib(int n){
         //use memoization
