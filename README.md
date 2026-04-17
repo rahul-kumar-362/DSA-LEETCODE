@@ -8,6 +8,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- | ------- |
 | [0062-unique-paths](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0062-unique-paths/) | Medium |
 | [0070-climbing-stairs](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0070-climbing-stairs/) | Easy |
+| [0509-fibonacci-number](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0509-fibonacci-number/) | Easy |
 | [1248-count-number-of-nice-subarrays](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/1248-count-number-of-nice-subarrays/) | Medium |
 ## Dynamic Programming
 | Problem Name | Difficulty |
@@ -20,11 +21,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0198-house-robber](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0198-house-robber/) | Medium |
 | [0300-longest-increasing-subsequence](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0300-longest-increasing-subsequence/) | Medium |
 | [0322-coin-change](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0322-coin-change/) | Medium |
+| [0509-fibonacci-number](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0509-fibonacci-number/) | Easy |
 | [1143-longest-common-subsequence](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/1143-longest-common-subsequence/) | Medium |
 ## Memoization
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0070-climbing-stairs](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0070-climbing-stairs/) | Easy |
+| [0509-fibonacci-number](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0509-fibonacci-number/) | Easy |
 ## Array
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -115,4 +118,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0078-subsets](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0078-subsets/) | Medium |
+## Recursion
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0509-fibonacci-number](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0509-fibonacci-number/) | Easy |
 <!---LeetCode Topics End-->
