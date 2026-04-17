@@ -23,17 +23,34 @@ public:
 
     //     return dp[n]=solve(n-1,dp)+solve(n-2,dp);
     // }
-    int fib(int n){
-        //use Tabulation
+    // int fib(int n){
+    //     //use Tabulation
+
+    //     if(n==0)return 0;
+    //     vector<int>dp(n+1,0);
+
+    //     dp[0]=0;
+    //     dp[1]=1;
+    //     for(int i=2;i<=n;i++){
+    //         dp[i]=dp[i-1] + dp[i-2];
+    //     }
+    //     return dp[n];
+    // }
+
+
+      int fib(int n){
+        //use space Optimization
 
         if(n==0)return 0;
-        vector<int>dp(n+1,0);
-
-        dp[0]=0;
-        dp[1]=1;
+        int prev2=0;
+        int prev1=1;
+        int current=prev1+prev2;
         for(int i=2;i<=n;i++){
-            dp[i]=dp[i-1] + dp[i-2];
+
+            current=prev1+prev2;
+            prev2=prev1;
+            prev1=current;
         }
-        return dp[n];
+        return current;
     }
 };
