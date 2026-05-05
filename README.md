@@ -8,6 +8,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- | ------- |
 | [0062-unique-paths](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0062-unique-paths/) | Medium |
 | [0070-climbing-stairs](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0070-climbing-stairs/) | Easy |
+| [0204-count-primes](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0204-count-primes/) | Medium |
 | [0509-fibonacci-number](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0509-fibonacci-number/) | Easy |
 | [1248-count-number-of-nice-subarrays](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/1248-count-number-of-nice-subarrays/) | Medium |
 ## Dynamic Programming
@@ -39,6 +40,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0078-subsets](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0078-subsets/) | Medium |
 | [0174-dungeon-game](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0174-dungeon-game/) | Hard |
 | [0198-house-robber](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0198-house-robber/) | Medium |
+| [0204-count-primes](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0204-count-primes/) | Medium |
 | [0213-house-robber-ii](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0213-house-robber-ii/) | Medium |
 | [0228-summary-ranges](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0228-summary-ranges/) | Easy |
 | [0240-search-a-2d-matrix-ii](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0240-search-a-2d-matrix-ii/) | Medium |
@@ -132,4 +134,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0021-merge-two-sorted-lists](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0021-merge-two-sorted-lists/) | Easy |
 | [0061-rotate-list](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0061-rotate-list/) | Medium |
 | [0083-remove-duplicates-from-sorted-list](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0083-remove-duplicates-from-sorted-list/) | Easy |
+## Enumeration
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0204-count-primes](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0204-count-primes/) | Medium |
+## Number Theory
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0204-count-primes](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0204-count-primes/) | Medium |
 <!---LeetCode Topics End-->
