@@ -36,6 +36,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0001-two-sum](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0001-two-sum/) | Easy |
 | [0042-trapping-rain-water](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0042-trapping-rain-water/) | Hard |
 | [0053-maximum-subarray](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0053-maximum-subarray/) | Medium |
+| [0057-insert-interval](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0057-insert-interval/) | Medium |
 | [0074-search-a-2d-matrix](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0074-search-a-2d-matrix/) | Medium |
 | [0078-subsets](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0078-subsets/) | Medium |
 | [0174-dungeon-game](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0174-dungeon-game/) | Hard |
