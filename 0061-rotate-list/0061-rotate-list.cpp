@@ -11,35 +11,47 @@
 class Solution {
 public:
     ListNode* rotateRight(ListNode* head, int k) {
+        int n=1;//1st node already count karli
 
 
-        if(head == NULL || head->next == NULL || k == 0)
-            return head;
+        ListNode*temp=head;
 
-
-        ListNode* temp1=head;
-        int count=1;
-        while(temp1->next!=NULL){
-            temp1=temp1->next;
-            count++;
+        if(head==NULL || head->next==NULL)return head; 
+       
+        while( temp->next!=NULL  ){
+            n++;
+            temp=temp->next;
         }
-
-        ListNode*temp2=temp1;//tail se start karna hai
-         k=k%count;
+        // n=n+1;
 
 
-         
-        temp1->next=head;
-        for(int i=0;i<count-k;i++){
-
+        k=k%n;
+        ListNode*temp2=head;
+        int k2=n-k;
+        while(k2>1){
             temp2=temp2->next;
+            k2--;
         }
 
-        ListNode* ans = temp2->next;
+
+        temp->next=head;
+
+        //ListNode* bhai=temp2->next;
+        head=temp2->next;
         temp2->next=NULL;
 
 
-        
-        return ans;
+
+
+        return head;
+
+
+
+
+
+
+
+
+
     }
 };
