@@ -82,6 +82,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## String
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0008-string-to-integer-atoi](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0008-string-to-integer-atoi/) | Medium |
 | [0344-reverse-string](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0344-reverse-string/) | Easy |
 | [0541-reverse-string-ii](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0541-reverse-string-ii/) | Easy |
 | [1143-longest-common-subsequence](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/1143-longest-common-subsequence/) | Medium |
