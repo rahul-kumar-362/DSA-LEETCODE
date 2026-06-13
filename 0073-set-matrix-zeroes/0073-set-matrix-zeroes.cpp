@@ -23,26 +23,18 @@ public:
 
 
 
-        //make row 0
+        //make row  and col 0
         for(int i=0;i<n;i++){
             
-            if(makerow[i]){
-                for(int j=0;j<m;j++){
+            for(int j=0;j<m;j++){
+                if(makerow[i] || makecolumn[j]){
                     matrix[i][j]=0;
                 }
             }
         }
 
 
-        //make col 0
-        for(int j=0;j<m;j++){
-            if(makecolumn[j]){
-                for(int i=0;i<n;i++){
-                    matrix[i][j]=0;
-                }
-               
-            }
-        }
+        
 
     }
 };
