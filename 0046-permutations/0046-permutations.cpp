@@ -4,44 +4,32 @@ public:
 
 
 
-    //permutation means just rearrangement and not like subsequences
+    void solve(int idx, vector<int>& nums, vector<vector<int>>& ans) {
 
-    //so
-
-    //
-    void func( vector<int>&nums,vector<vector<int>>&ans,vector<int>temp,vector<int>used){
-
-        int n=nums.size();
-        //base case 
-        if(temp.size()==n){
-            ans.push_back(temp);
+        if(idx == nums.size()) {
+            ans.push_back(nums);
             return;
         }
 
+        for(int i = idx; i < nums.size(); i++) {
 
-        for(int i=0;i<n;i++){
+            swap(nums[idx], nums[i]);
 
-            //already used ...
-            if(used[i])continue;
+            solve(idx + 1, nums, ans);
 
-            // choose
-            used[i] = 1;
-            temp.push_back(nums[i]);
-
-            func(nums,ans, temp, used);
-
-            // backtrack
-            temp.pop_back();
-            used[i] = 0;
+            swap(nums[idx], nums[i]); // backtrack
         }
     }
     vector<vector<int>> permute(vector<int>& nums) {
-        vector<vector<int>>ans;
-        vector<int> temp;
-        vector<int> used(nums.size(), 0);
 
-        func(nums, ans,temp, used);
+        //Striver APPROACH -2
+
+        //Using Swapping to generate all permutations of array
+
+        vector<vector<int>>ans;
+        solve(0,nums,ans);
 
         return ans;
+
     }
 };
