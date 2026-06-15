@@ -5,6 +5,11 @@ public:
     //Optimal APPROACH ...
 
 
+    
+    //T.C. - O(N)
+    //S.C. - O(1)
+
+
     void nextPermutation(vector<int>& nums) {
 
         int n=nums.size();
