@@ -31,6 +31,9 @@ public:
 
                     while(j<k && nums[j]==nums[j-1]) j++;//TO HANDLE DUPLICATES for jth place
 
+
+                    while(j < k && nums[k] == nums[k+1]) k--;//told by gpt
+
                 }
 
                 
