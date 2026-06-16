@@ -6,7 +6,7 @@ public:
 
         int n=nums.size();
         set<vector<int>>uniQuetriplets;
-        sort(nums.begin(),nums.end());
+       // sort(nums.begin(),nums.end());
         for(int i=0;i<n;i++){
             for(int j=i+1;j<n;j++){
 
@@ -18,6 +18,7 @@ public:
                         //store answer
 
                         vector<int>temp = {nums[i],nums[j],nums[k],(int)fourth};
+                        sort(temp.begin(),temp.end());
                         uniQuetriplets.insert(temp);
                     }
 
