@@ -1,31 +1,41 @@
 class Solution {
 public:
     vector<vector<int>> fourSum(vector<int>& nums, int target) {
-        //BETTER APPROACH USING HASHING
-
+        //OPTIMAL APPROCH ...
 
         int n=nums.size();
-        set<vector<int>>uniQuetriplets;
-       // sort(nums.begin(),nums.end());
+        vector<vector<int>>ans;
+        
+        //step 1 :  sort nums 
+        sort(nums.begin(),nums.end());
+
+
+        //step 2 : Fix 2 nums and Other 2 by 2 ptr approach
         for(int i=0;i<n;i++){
+
+            if(i>0 && nums[i] == nums[i-1] )continue;
             for(int j=i+1;j<n;j++){
 
-                set<long long >s;
-                for(int k=j+1;k<n;k++){
-                    long long fourth = 1LL*target - nums[i] - nums[j] - nums[k];
+                if(j>i+1 && nums[j] == nums[j-1] )continue;
+                int p=j+1;
+                int q=n-1;
 
-                    if(s.count(fourth)){//agar mil gaya
-                        //store answer
+                while(p<q){
+                    long long sum = 1LL*nums[i]+nums[j]+nums[p]+nums[q];
 
-                        vector<int>temp = {nums[i],nums[j],nums[k],(int)fourth};
-                        sort(temp.begin(),temp.end());
-                        uniQuetriplets.insert(temp);
+                    if(sum<target)p++;
+                    else if(sum>target)q--;
+                    else {//equal ka case
+                        ans.push_back({nums[i],nums[j],nums[p],nums[q]});
+                        p++;
+                        q--;
+
+                        while(p<q && nums[p]==nums[p-1]) p++;
+                        while(p<q && nums[q]==nums[q+1]) q--;
                     }
-
-                    s.insert(nums[k]);
                 }
             }
         }
-        return vector<vector<int>>(uniQuetriplets.begin(),uniQuetriplets.end());
+        return ans;
     }
 };
