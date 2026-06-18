@@ -26,7 +26,9 @@ public:
 
 
                 //if(distinctCount.size())
-                if(distinctCount.size()<=2){
+                if(distinctCount.size()<=2){  //since question asked for ATMOST 2 distinct 
+
+                
                     //toh store
                     distANS = r-L+1;
                     //maxi=max(maxi,distAns);
