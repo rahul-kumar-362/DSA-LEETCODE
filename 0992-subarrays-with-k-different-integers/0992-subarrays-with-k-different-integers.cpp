@@ -31,6 +31,6 @@ public:
     int subarraysWithKDistinct(vector<int>& nums, int k) {
 
         return atMostK(nums, k)
-             - atMostK(nums, k - 1);
+             - atMostK(nums, k - 1); //TAAKI exact wala case aa sake
     }
 };
