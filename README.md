@@ -62,6 +62,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0540-single-element-in-a-sorted-array](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0540-single-element-in-a-sorted-array/) | Medium |
 | [0875-koko-eating-bananas](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0875-koko-eating-bananas/) | Medium |
 | [0904-fruit-into-baskets](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0904-fruit-into-baskets/) | Medium |
+| [0992-subarrays-with-k-different-integers](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0992-subarrays-with-k-different-integers/) | Hard |
 | [0994-rotting-oranges](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0994-rotting-oranges/) | Medium |
 | [1248-count-number-of-nice-subarrays](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/1248-count-number-of-nice-subarrays/) | Medium |
 ## Matrix
@@ -132,11 +133,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0001-two-sum](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0001-two-sum/) | Easy |
 | [0073-set-matrix-zeroes](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0073-set-matrix-zeroes/) | Medium |
 | [0904-fruit-into-baskets](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0904-fruit-into-baskets/) | Medium |
+| [0992-subarrays-with-k-different-integers](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0992-subarrays-with-k-different-integers/) | Hard |
 | [1248-count-number-of-nice-subarrays](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/1248-count-number-of-nice-subarrays/) | Medium |
 ## Sliding Window
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0904-fruit-into-baskets](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0904-fruit-into-baskets/) | Medium |
+| [0992-subarrays-with-k-different-integers](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0992-subarrays-with-k-different-integers/) | Hard |
 | [1248-count-number-of-nice-subarrays](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/1248-count-number-of-nice-subarrays/) | Medium |
 ## Prefix Sum
 | Problem Name | Difficulty |
@@ -184,4 +187,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- | ------- |
 | [0015-3sum](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0015-3sum/) | Medium |
 | [0018-4sum](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0018-4sum/) | Medium |
+## Counting
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0992-subarrays-with-k-different-integers](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0992-subarrays-with-k-different-integers/) | Hard |
 <!---LeetCode Topics End-->
