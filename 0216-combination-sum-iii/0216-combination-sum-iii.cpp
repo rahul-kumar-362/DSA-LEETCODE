@@ -1,49 +1,41 @@
 class Solution {
 public:
 
-    void solve(int idx,int k,vector<int>&num, int n,vector<vector<int>>&ans ,vector<int>&temp){
-        
+    //STRIVER APPROACH ...
 
-
-        // if(idx-1==9)
-        if(k==0 && n==0){
-            //sum bhi 0 hogya toh 
-            //condition reached....
-            ans.push_back(temp);//to take all combinations
-            return;
-
+    void func(int sum, int last, vector<int> &nums, int k, vector<vector<int>> &ans) {
+        // If the sum is zero and the number of elements is k
+        if(sum == 0 && nums.size() == k) {
+            // Add the current combination to the answer
+            ans.push_back(nums);
+            return; 
         }
+        // If the sum is less than or equal to zero or the number of elements exceeds k
+        if(sum <= 0 || nums.size() > k) return; 
 
-
-        if(idx==9 || k<0 || n<0){
-            return;
+        // Iterate from the last number to 9
+        for(int i = last; i <= 9; i++) {
+            // If the current number is less than or equal to the sum
+            if(i <= sum) {
+                // Add the number to the current combination
+                nums.push_back(i); 
+                // Recursive call with updated sum and next number
+                func(sum - i, i + 1, nums, k, ans); 
+                // Remove the last number to backtrack
+                nums.pop_back(); 
+            } else {
+                // If the number is greater than the sum, break the loop
+                break;
+            }
         }
-
-        temp.push_back(num[idx]);
-        solve(idx+1,k-1,num,n-num[idx],ans,temp);//pick branch 
-        //num tak reduce sum se aur k-- matlab k reduce agle iteration mai
-
-        //after recursion
-        temp.pop_back();
-        // n+=num[idx];
-        // k++;
-        solve(idx+1,k,num,n,ans,temp);//non-pick branch 
-        
-
-
-
-
-    }
+    } 
+public:
+    // Function to find all possible combinations of k numbers that add up to n
     vector<vector<int>> combinationSum3(int k, int n) {
-        //brute force ... at most 9! mere hisaab se
-
-        vector<int>num={1,2,3,4,5,6,7,8,9};
-        vector<vector<int>>ans;
-        vector<int>temp;//k num com lene hai
-
-        solve(0,k,num,n,ans,temp);
-        return ans;
-        
-        
+        vector<vector<int>> ans; 
+        vector<int> nums; 
+        // Call the recursive function with initial parameters
+        func(n, 1, nums, k, ans);
+        return ans; 
     }
 };
