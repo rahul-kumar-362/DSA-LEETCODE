@@ -51,6 +51,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0073-set-matrix-zeroes](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0073-set-matrix-zeroes/) | Medium |
 | [0074-search-a-2d-matrix](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0074-search-a-2d-matrix/) | Medium |
 | [0078-subsets](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0078-subsets/) | Medium |
+| [0090-subsets-ii](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0090-subsets-ii/) | Medium |
 | [0174-dungeon-game](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0174-dungeon-game/) | Hard |
 | [0198-house-robber](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0198-house-robber/) | Medium |
 | [0204-count-primes](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0204-count-primes/) | Medium |
@@ -128,6 +129,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0078-subsets](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0078-subsets/) | Medium |
+| [0090-subsets-ii](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0090-subsets-ii/) | Medium |
 | [0260-single-number-iii](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0260-single-number-iii/) | Medium |
 ## Hash Table
 | Problem Name | Difficulty |
@@ -154,6 +156,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0040-combination-sum-ii](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0040-combination-sum-ii/) | Medium |
 | [0046-permutations](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0046-permutations/) | Medium |
 | [0078-subsets](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0078-subsets/) | Medium |
+| [0090-subsets-ii](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0090-subsets-ii/) | Medium |
 | [0216-combination-sum-iii](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0216-combination-sum-iii/) | Medium |
 ## Recursion
 | Problem Name | Difficulty |
