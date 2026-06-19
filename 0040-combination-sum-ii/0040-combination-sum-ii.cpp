@@ -31,10 +31,7 @@ public:
 
         sort(candidates.begin(),candidates.end());
         solve(0,temp,candidates,target,ans);
-        sort(ans.begin(),ans.end());
-        set<vector<int>>s(ans.begin(),ans.end());
-        ans.clear();
-        ans=vector<vector<int>>(s.begin(),s.end());
+       
         return ans;
     }
 };
