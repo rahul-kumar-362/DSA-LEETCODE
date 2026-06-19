@@ -42,6 +42,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0018-4sum](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0018-4sum/) | Medium |
 | [0031-next-permutation](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0031-next-permutation/) | Medium |
 | [0039-combination-sum](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0039-combination-sum/) | Medium |
+| [0040-combination-sum-ii](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0040-combination-sum-ii/) | Medium |
 | [0042-trapping-rain-water](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0042-trapping-rain-water/) | Hard |
 | [0046-permutations](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0046-permutations/) | Medium |
 | [0048-rotate-image](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0048-rotate-image/) | Medium |
@@ -149,6 +150,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0039-combination-sum](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0039-combination-sum/) | Medium |
+| [0040-combination-sum-ii](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0040-combination-sum-ii/) | Medium |
 | [0046-permutations](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0046-permutations/) | Medium |
 | [0078-subsets](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0078-subsets/) | Medium |
 ## Recursion
