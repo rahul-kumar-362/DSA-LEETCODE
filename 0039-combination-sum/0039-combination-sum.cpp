@@ -1,57 +1,46 @@
 class Solution {
 public:
 
-    void Combination(int idx,
-                     int target,
-                     vector<int>& candidates,
-                     vector<vector<int>>& ans,
-                     vector<int>& arr) {
+    void solve(int i, int sum,vector<int>&temp,vector<int>& candidates, int target,vector<vector<int>>&ans ){
+        int n=candidates.size();
+        //pehle try all combinations and wahi print
+       
 
-        // Valid combination found
-        if (target == 0) {
-            ans.push_back(arr);
+        // if(i==n){
+        //     ans.push_back(temp);
+        //     return;
+        // }
+        
+
+        
+
+        if(sum==target){
+            ans.push_back(temp);
             return;
         }
 
-        // No candidates left
-        if (idx == candidates.size()) {
+
+        if(i == n || sum > target){ // Base Cases...
             return;
         }
 
-        // Pick current element
-        if (candidates[idx] <= target) {
 
-            arr.push_back(candidates[idx]);
+        temp.push_back(candidates[i]);
+        sum+=candidates[i];
 
-            Combination(idx,
-                        target - candidates[idx],
-                        candidates,
-                        ans,
-                        arr);
+        solve(i,sum,temp,candidates,target,ans);//pick branch current bhi jabtak ho ske
 
-            arr.pop_back();
-        }
 
-        // Skip current element
-        Combination(idx + 1,
-                    target,
-                    candidates,
-                    ans,
-                    arr);
+
+        sum-=candidates[i];
+        temp.pop_back();
+        solve(i+1,sum,temp,candidates,target,ans);
     }
-
-    vector<vector<int>> combinationSum(vector<int>& candidates,
-                                       int target) {
-
-        vector<vector<int>> ans;
-        vector<int> arr;
-
-        Combination(0,
-                    target,
-                    candidates,
-                    ans,
-                    arr);
-
+    vector<vector<int>> combinationSum(vector<int>& candidates, int target) {
+        vector<vector<int>>ans;
+        int sum=0;
+        vector<int>temp;
+        solve(0,sum,temp,candidates,target,ans);
         return ans;
     }
 };
