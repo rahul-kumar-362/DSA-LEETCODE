@@ -15,7 +15,7 @@ public:
         for(int i=idx;i<n;i++){
             if(i > idx && candidates[i] == candidates[i-1])continue;//we'll skip All Duplicates...
             if(candidates[i]>target){
-                break;//Aamchi jirli ...
+                break;//Aamchi jirli ... because sorted array
             }
 
             temp.push_back(candidates[i]);
