@@ -2,18 +2,21 @@ class Solution {
 public:
 
         void solve(vector<int>&nums,vector<int>output,vector<vector<int>>&ans,int i){
-        int n=nums.size();
+            int n=nums.size();
+           // if(i==n)break;
+            ans.push_back(output);//Khali toh rahega hi answer mai
+            for(int j=i;j<n;j++){
 
-        if(i==n){
-          ans.push_back(output);
-          return ;
-        }
+                
+                if(j>i && nums[j-1]==nums[j])continue;//skip duplicates
 
-        output.push_back(nums[i]);
-        solve(nums,output ,ans,i+1);
+                output.push_back(nums[j]);
+                solve(nums,output,ans,j+1);
+                output.pop_back();
+            }
 
-        output.pop_back();
-        solve(nums,output,ans,i+1);
+
+
     }
     vector<vector<int>> subsetsWithDup(vector<int>& nums) {
 
@@ -23,10 +26,10 @@ public:
         // sort(nums.begin(),nums.end());
         solve(nums,output,ans,0);
 
-        set<vector<int>>s(ans.begin(),ans.end());
+        // set<vector<int>>s(ans.begin(),ans.end());
 
-        ans.clear();
-        ans=vector<vector<int>>(s.begin(),s.end());//for duplicates
+        // ans.clear();
+        // ans=vector<vector<int>>(s.begin(),s.end());//for duplicates
 
         return ans;
     }
