@@ -16,6 +16,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Dynamic Programming
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0022-generate-parentheses](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0022-generate-parentheses/) | Medium |
 | [0042-trapping-rain-water](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0042-trapping-rain-water/) | Hard |
 | [0053-maximum-subarray](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0053-maximum-subarray/) | Medium |
 | [0062-unique-paths](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0062-unique-paths/) | Medium |
@@ -104,6 +105,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0008-string-to-integer-atoi](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0008-string-to-integer-atoi/) | Medium |
+| [0022-generate-parentheses](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0022-generate-parentheses/) | Medium |
 | [0344-reverse-string](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0344-reverse-string/) | Easy |
 | [0541-reverse-string-ii](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0541-reverse-string-ii/) | Easy |
 | [1143-longest-common-subsequence](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/1143-longest-common-subsequence/) | Medium |
@@ -152,6 +154,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Backtracking
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0022-generate-parentheses](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0022-generate-parentheses/) | Medium |
 | [0039-combination-sum](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0039-combination-sum/) | Medium |
 | [0040-combination-sum-ii](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0040-combination-sum-ii/) | Medium |
 | [0046-permutations](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0046-permutations/) | Medium |
