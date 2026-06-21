@@ -15,7 +15,7 @@ public:
         if(open<n){
             solve(open+1,close,n,ans,temp+"(");
         }
-        if(close<open){
+        if(close<open){ //Matlab: Jitne ( lagaye hain, unse zyada ) kabhi nahi lag sakte.
             solve(open,close+1,n,ans,temp+")");
         }
     }
