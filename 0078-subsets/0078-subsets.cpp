@@ -1,25 +1,18 @@
 class Solution {
 public:
-    void solve(vector<int>&nums,vector<int>output,vector<vector<int>>&ans,int i){
-        int n=nums.size();
-
-        if(i==n){
-          ans.push_back(output);
-          return ;
-        }
-
-        output.push_back(nums[i]);
-        solve(nums,output ,ans,i+1);
-
-        output.pop_back();
-        solve(nums,output,ans,i+1);
-    }
     vector<vector<int>> subsets(vector<int>& nums) {
+        //ANOTHER OPTIMAL APPROACH IS USING  THE BIT -MANIPULATION
+
+        //Since we know that the indexing will be backwards
         vector<vector<int>>ans;
-
-        vector<int>output;
-
-        solve(nums,output,ans,0);
+        int n=nums.size();
+        for (int i=0;i<(1<<n);i++){   //2^n tak loop chalaya
+            vector<int>temp;
+            for(int j=0;j<n;j++){
+                if( i  & (1<<j))temp.push_back(nums[j]); //i ke liye har set bit check
+            }
+            ans.push_back(temp);
+        }
         return ans;
     }
 };
