@@ -105,6 +105,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0008-string-to-integer-atoi](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0008-string-to-integer-atoi/) | Medium |
+| [0017-letter-combinations-of-a-phone-number](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0017-letter-combinations-of-a-phone-number/) | Medium |
 | [0022-generate-parentheses](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0022-generate-parentheses/) | Medium |
 | [0344-reverse-string](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0344-reverse-string/) | Easy |
 | [0541-reverse-string-ii](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0541-reverse-string-ii/) | Easy |
@@ -137,6 +138,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0001-two-sum](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0001-two-sum/) | Easy |
+| [0017-letter-combinations-of-a-phone-number](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0017-letter-combinations-of-a-phone-number/) | Medium |
 | [0073-set-matrix-zeroes](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0073-set-matrix-zeroes/) | Medium |
 | [0904-fruit-into-baskets](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0904-fruit-into-baskets/) | Medium |
 | [0992-subarrays-with-k-different-integers](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0992-subarrays-with-k-different-integers/) | Hard |
@@ -154,6 +156,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Backtracking
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0017-letter-combinations-of-a-phone-number](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0017-letter-combinations-of-a-phone-number/) | Medium |
 | [0022-generate-parentheses](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0022-generate-parentheses/) | Medium |
 | [0039-combination-sum](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0039-combination-sum/) | Medium |
 | [0040-combination-sum-ii](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0040-combination-sum-ii/) | Medium |
