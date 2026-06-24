@@ -55,6 +55,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0078-subsets](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0078-subsets/) | Medium |
 | [0079-word-search](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0079-word-search/) | Medium |
 | [0090-subsets-ii](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0090-subsets-ii/) | Medium |
+| [0136-single-number](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0136-single-number/) | Easy |
 | [0174-dungeon-game](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0174-dungeon-game/) | Hard |
 | [0198-house-robber](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0198-house-robber/) | Medium |
 | [0204-count-primes](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0204-count-primes/) | Medium |
@@ -137,6 +138,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- | ------- |
 | [0078-subsets](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0078-subsets/) | Medium |
 | [0090-subsets-ii](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0090-subsets-ii/) | Medium |
+| [0136-single-number](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0136-single-number/) | Easy |
 | [0260-single-number-iii](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0260-single-number-iii/) | Medium |
 ## Hash Table
 | Problem Name | Difficulty |
