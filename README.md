@@ -46,6 +46,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0040-combination-sum-ii](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0040-combination-sum-ii/) | Medium |
 | [0042-trapping-rain-water](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0042-trapping-rain-water/) | Hard |
 | [0046-permutations](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0046-permutations/) | Medium |
+| [0047-permutations-ii](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0047-permutations-ii/) | Medium |
 | [0048-rotate-image](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0048-rotate-image/) | Medium |
 | [0053-maximum-subarray](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0053-maximum-subarray/) | Medium |
 | [0057-insert-interval](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0057-insert-interval/) | Medium |
@@ -161,6 +162,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0039-combination-sum](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0039-combination-sum/) | Medium |
 | [0040-combination-sum-ii](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0040-combination-sum-ii/) | Medium |
 | [0046-permutations](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0046-permutations/) | Medium |
+| [0047-permutations-ii](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0047-permutations-ii/) | Medium |
 | [0078-subsets](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0078-subsets/) | Medium |
 | [0090-subsets-ii](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0090-subsets-ii/) | Medium |
 | [0216-combination-sum-iii](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0216-combination-sum-iii/) | Medium |
@@ -200,6 +202,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- | ------- |
 | [0015-3sum](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0015-3sum/) | Medium |
 | [0018-4sum](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0018-4sum/) | Medium |
+| [0047-permutations-ii](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0047-permutations-ii/) | Medium |
 ## Counting
 | Problem Name | Difficulty |
 | ------- | ------- |
