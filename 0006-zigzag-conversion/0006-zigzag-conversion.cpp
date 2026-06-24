@@ -1,5 +1,9 @@
 class Solution {
 public:
+
+//     Complexity
+// Time: O(n)
+// Space: O(n)
     string convert(string s, int numRows) {
         //brute force....
         vector<string>ans(numRows,"");//initially
