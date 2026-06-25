@@ -11,12 +11,12 @@ public:
             hash[s[r]-'A']++;//increase 
             maxf=max(maxf,hash[s[r]-'A']);
 
-            while(((r-L+1)-maxf) > k){//not valid
+            if(((r-L+1)-maxf) > k){//not valid
                 hash[s[L]-'A']--;//reduce IT
-                maxf=0;//redefine
-                for(int i=0;i<26;i++){
-                    maxf=max(maxf,hash[i]);
-                }
+            //    maxf=0;//redefine
+                // for(int i=0;i<26;i++){
+                //     maxf=max(maxf,hash[i]);
+                // }
                 L++;
             }
 
