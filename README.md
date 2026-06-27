@@ -129,6 +129,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0322-coin-change](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0322-coin-change/) | Medium |
+| [0547-number-of-provinces](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0547-number-of-provinces/) | Medium |
 | [0994-rotting-oranges](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0994-rotting-oranges/) | Medium |
 | [1971-find-if-path-exists-in-graph](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/1971-find-if-path-exists-in-graph/) | Easy |
 ## Binary Search
@@ -208,14 +209,17 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0079-word-search](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0079-word-search/) | Medium |
+| [0547-number-of-provinces](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0547-number-of-provinces/) | Medium |
 | [1971-find-if-path-exists-in-graph](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/1971-find-if-path-exists-in-graph/) | Easy |
 ## Union-Find
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0547-number-of-provinces](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0547-number-of-provinces/) | Medium |
 | [1971-find-if-path-exists-in-graph](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/1971-find-if-path-exists-in-graph/) | Easy |
 ## Graph Theory
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0547-number-of-provinces](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0547-number-of-provinces/) | Medium |
 | [1971-find-if-path-exists-in-graph](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/1971-find-if-path-exists-in-graph/) | Easy |
 ## Sorting
 | Problem Name | Difficulty |
