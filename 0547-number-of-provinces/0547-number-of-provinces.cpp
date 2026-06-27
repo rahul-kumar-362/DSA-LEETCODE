@@ -3,12 +3,12 @@ public:
 
     void dfs(vector<vector<int>>& isConnected, vector<int>& vis, int node) {
 
-        vis[node] = 1;
+        vis[node] = 1;//initially
 
         int n = isConnected.size();
 
         for(int i = 0; i < n; i++) {
-            if(isConnected[node][i] == 1 && !vis[i]) {
+            if(isConnected[node][i] == 1 && !vis[i]) {//agar connection hai to aage
                 dfs(isConnected, vis, i);
             }
         }
@@ -24,10 +24,9 @@ public:
 
         for(int i = 0; i < n; i++) {
 
-            if(!vis[i]) {
+            if(!vis[i]) {//agar initially unvisited
 
                 count++;
-
                 dfs(isConnected, vis, i);
             }
         }
