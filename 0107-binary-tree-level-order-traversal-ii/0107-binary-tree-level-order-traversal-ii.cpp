@@ -16,7 +16,8 @@ public: //brute force -->reversing the LEVEL ORDER TRAVERSAL
         if(root==NULL)return {};
         queue<TreeNode*>q;
         q.push(root);
-        vector<vector<int>>ans;
+        deque<vector<int>>dq;
+        //vector<vector<int>>ans;
 
         while(!q.empty()){
             vector<int>level;
@@ -34,9 +35,10 @@ public: //brute force -->reversing the LEVEL ORDER TRAVERSAL
                     q.push(node->right);
                 }
             }
-            ans.push_back(level);
+            dq.push_front(level);
         }
-        reverse(ans.begin(),ans.end());
+        //reverse(ans.begin(),ans.end());
+        vector<vector<int>>ans(dq.begin(),dq.end());
         return ans;
     }
 };
