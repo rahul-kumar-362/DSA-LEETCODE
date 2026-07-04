@@ -30,12 +30,8 @@ public:
 
 
         solve(root->left,targetSum,ans,temp,tempSum);
-
-      
-        
         solve(root->right,targetSum,ans,temp,tempSum);
-
-        //tempSum-=temp.back();
+        
         temp.pop_back();//after recursion backtracking
         
     }
