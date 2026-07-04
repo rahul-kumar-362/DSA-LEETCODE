@@ -12,14 +12,17 @@
 class Solution {
 public:
 
-
+    void doSwap(TreeNode* &left,TreeNode* &right){
+        swap(left,right);
+    }
     TreeNode* invertTree(TreeNode* root) {
         //i cant think,maybe swaaping nodes might help?
 
         if(root==nullptr)return NULL;//empty node
-        swap(root->left,root->right);
+        doSwap(root->left,root->right);
         invertTree(root->left);
         invertTree(root->right);
+        
         return root;
     }
 };
