@@ -12,7 +12,7 @@
 class Solution {
 public:
 
-    void solve(TreeNode* root, int targetSum,vector<vector<int>>&ans,vector<int>&temp,int tempSum){
+    void solve(TreeNode* root, int targetSum,vector<vector<int>>&ans,vector<int>&temp,int &tempSum){
 
         if(root==NULL)return ;
         
@@ -22,6 +22,7 @@ public:
 
         if(root->right ==NULL && root->left==NULL){//LEAF NODE
             if(targetSum == tempSum)ans.push_back(temp);
+            tempSum-=root->val;
             temp.pop_back();//oye yaha toh pop back karde OYE
             return ;
            // temp.clear();
@@ -31,7 +32,8 @@ public:
 
         solve(root->left,targetSum,ans,temp,tempSum);
         solve(root->right,targetSum,ans,temp,tempSum);
-        
+
+        tempSum-=root->val;
         temp.pop_back();//after recursion backtracking
         
     }
