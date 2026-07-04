@@ -132,6 +132,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0102-binary-tree-level-order-traversal](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0102-binary-tree-level-order-traversal/) | Medium |
 | [0103-binary-tree-zigzag-level-order-traversal](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0103-binary-tree-zigzag-level-order-traversal/) | Medium |
 | [0107-binary-tree-level-order-traversal-ii](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0107-binary-tree-level-order-traversal-ii/) | Medium |
+| [0226-invert-binary-tree](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0226-invert-binary-tree/) | Easy |
 | [0322-coin-change](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0322-coin-change/) | Medium |
 | [0547-number-of-provinces](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0547-number-of-provinces/) | Medium |
 | [0994-rotting-oranges](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0994-rotting-oranges/) | Medium |
@@ -214,6 +215,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- | ------- |
 | [0079-word-search](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0079-word-search/) | Medium |
 | [0101-symmetric-tree](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0101-symmetric-tree/) | Easy |
+| [0226-invert-binary-tree](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0226-invert-binary-tree/) | Easy |
 | [0547-number-of-provinces](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0547-number-of-provinces/) | Medium |
 | [1971-find-if-path-exists-in-graph](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/1971-find-if-path-exists-in-graph/) | Easy |
 ## Union-Find
@@ -243,6 +245,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0102-binary-tree-level-order-traversal](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0102-binary-tree-level-order-traversal/) | Medium |
 | [0103-binary-tree-zigzag-level-order-traversal](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0103-binary-tree-zigzag-level-order-traversal/) | Medium |
 | [0107-binary-tree-level-order-traversal-ii](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0107-binary-tree-level-order-traversal-ii/) | Medium |
+| [0226-invert-binary-tree](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0226-invert-binary-tree/) | Easy |
 ## Binary Tree
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -250,4 +253,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0102-binary-tree-level-order-traversal](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0102-binary-tree-level-order-traversal/) | Medium |
 | [0103-binary-tree-zigzag-level-order-traversal](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0103-binary-tree-zigzag-level-order-traversal/) | Medium |
 | [0107-binary-tree-level-order-traversal-ii](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0107-binary-tree-level-order-traversal-ii/) | Medium |
+| [0226-invert-binary-tree](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0226-invert-binary-tree/) | Easy |
 <!---LeetCode Topics End-->
