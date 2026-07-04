@@ -1,39 +1,41 @@
-class Solution {
-public:   //ye bhi hai par itna SamJHA nahi ...
-    bool isSymmetric(TreeNode* root) {
+/**
+ * Definition for a binary tree node.
+ * struct TreeNode {
+ *     int val;
+ *     TreeNode *left;
+ *     TreeNode *right;
+ *     TreeNode() : val(0), left(nullptr), right(nullptr) {}
+ *     TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
+ *     TreeNode(int x, TreeNode *left, TreeNode *right)
+ *         : val(x), left(left), right(right) {}
+ * };
+ */
 
-        if(root==NULL)
+class Solution {
+public:
+    bool isSymmetric(TreeNode* root) {
+        if (root == nullptr)
             return true;
 
-        queue<TreeNode*> q;
+        return isSymmetricHelp(root->left, root->right);
+    }
 
-        q.push(root->left);
-        q.push(root->right);
+    bool isSymmetricHelp(TreeNode* left, TreeNode* right) {
 
-        while(!q.empty()){
+        // Dono NULL
+        if (left == nullptr && right == nullptr)
+            return true;
 
-            TreeNode* left=q.front();
-            q.pop();
+        // Sirf ek NULL
+        if (left == nullptr || right == nullptr)
+            return false;
 
-            TreeNode* right=q.front();
-            q.pop();
+        // Values alag
+        if (left->val != right->val)
+            return false;
 
-            if(left==NULL && right==NULL)
-                continue;
-
-            if(left==NULL || right==NULL)
-                return false;
-
-            if(left->val!=right->val)
-                return false;
-
-            q.push(left->left);
-            q.push(right->right);
-
-            q.push(left->right);
-            q.push(right->left);
-        }
-
-        return true;
+        // Mirror check
+        return isSymmetricHelp(left->left, right->right) &&
+               isSymmetricHelp(left->right, right->left);
     }
 };
