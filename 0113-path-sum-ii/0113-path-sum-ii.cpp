@@ -35,7 +35,7 @@ public:
         
         solve(root->right,targetSum,ans,temp,tempSum);
 
-        tempSum-=temp.back();
+        //tempSum-=temp.back();
         temp.pop_back();//after recursion backtracking
         
     }
