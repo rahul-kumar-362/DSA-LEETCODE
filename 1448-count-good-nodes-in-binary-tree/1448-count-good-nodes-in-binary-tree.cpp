@@ -24,7 +24,7 @@ public: //OPTIMAL SOLUTION...
     }
     int goodNodes(TreeNode* root) {
         //mujhse bada koi nai hona chahiye
-        int maxsoFar=root->val; //INITIALISE WITH ROOT VALUE SINCE IT MAY BE -VE
+        int maxsoFar=INT_MIN;
         int count=0;
         solve(root,maxsoFar,count);
         return count;
