@@ -12,7 +12,7 @@
 class Solution {
 public:
 
-    void solve(TreeNode*root,int temp,int &totalSum){
+    void solve(TreeNode*root,int &temp,int &totalSum){
 
         if(root==NULL)return;
 
@@ -20,17 +20,19 @@ public:
         if(root->left==NULL && root->right==NULL){//AAGYA LEAF NODE PAR...
             //temp milgya
             totalSum+=temp;
+            temp=temp/10;
             return;
         }
        
         solve(root->left,temp,totalSum);
         solve(root->right,temp,totalSum);
+        temp/=10;//for backtracking
     }
     int sumNumbers(TreeNode* root) {
         //saare paths se sum lo aur add karo WTF
         int totalSum=0;
         int temp=0;
-        solve(root,0,totalSum);
+        solve(root,temp,totalSum);
         return totalSum;
     }
 };
