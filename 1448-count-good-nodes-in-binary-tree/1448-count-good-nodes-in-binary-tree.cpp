@@ -19,7 +19,10 @@ public:
        
 
         if(pq.empty() || pq.top()<=root->val)count++;//agar bada hai pehle se to good node
-        pq.push(root->val);
+
+
+        pq.push(root->val); //AAPNE BOLA TOH MAI BAADME DAALRA HU
+        
         solve(root->left,pq,count);
         solve(root->right,pq,count);
     }
