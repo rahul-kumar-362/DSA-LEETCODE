@@ -10,27 +10,23 @@
  * };
  */
 class Solution {
-public:
+public: //OPTIMAL SOLUTION...
 
-    void solve(TreeNode*root,priority_queue<int>pq,int &count){
+    void solve(TreeNode*root,int maxsoFar,int &count){
 
         if(root==NULL)return;
-       // priority_queue<int>pq;
-       
 
-        if(pq.empty() || pq.top()<=root->val)count++;//agar bada hai pehle se to good node
-
-
-        pq.push(root->val); //AAPNE BOLA TOH MAI BAADME DAALRA HU
+        if( maxsoFar<=root->val)count++;
         
-        solve(root->left,pq,count);
-        solve(root->right,pq,count);
+        maxsoFar=max(maxsoFar,root->val);//max track sabke liye
+        solve(root->left,maxsoFar,count);
+        solve(root->right,maxsoFar,count);
     }
     int goodNodes(TreeNode* root) {
         //mujhse bada koi nai hona chahiye
-        priority_queue<int>pq;
+        int maxsoFar=root->val; //INITIALISE WITH ROOT VALUE SINCE IT MAY BE -VE
         int count=0;
-        solve(root,pq,count);
+        solve(root,maxsoFar,count);
         return count;
     }
 };
