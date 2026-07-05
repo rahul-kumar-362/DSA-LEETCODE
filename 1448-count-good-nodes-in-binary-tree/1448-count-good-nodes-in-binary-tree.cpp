@@ -16,9 +16,10 @@ public:
 
         if(root==NULL)return;
        // priority_queue<int>pq;
-        pq.push(root->val);
+       
 
-        if(pq.top()<=root->val)count++;//agar bada hai pehle se to good node
+        if(pq.empty() || pq.top()<=root->val)count++;//agar bada hai pehle se to good node
+        pq.push(root->val);
         solve(root->left,pq,count);
         solve(root->right,pq,count);
     }
