@@ -9,25 +9,27 @@
  *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
  * };
  */
+class Solution {
+public: //OPTIMAL SOLUTION...   
 
-class Solution {  //GPT 5.5
-public:
-    void dfs(TreeNode* root, int maxSoFar, int &count) {
-        if (root == nullptr)
-            return;
+//✅ Time: O(n) (Optimal)
+//✅ Space: O(h) (Optimal)
 
-        if (root->val >= maxSoFar)
-            count++;
+    void solve(TreeNode*root,int maxsoFar,int &count){
 
-        maxSoFar = max(maxSoFar, root->val);
+        if(root==NULL)return;
 
-        dfs(root->left, maxSoFar, count);
-        dfs(root->right, maxSoFar, count);
+        if( maxsoFar<=root->val)count++;
+        
+        maxsoFar=max(maxsoFar,root->val);//max track sabke liye
+        solve(root->left,maxsoFar,count);
+        solve(root->right,maxsoFar,count);
     }
-
     int goodNodes(TreeNode* root) {
-        int count = 0;
-        dfs(root, root->val, count);
+        //mujhse bada koi nai hona chahiye
+        int maxsoFar=INT_MIN;
+        int count=0;
+        solve(root,maxsoFar,count);
         return count;
     }
 };
