@@ -27,8 +27,13 @@ public:
 
         // Node ki value hata do
         for (int i = 0; i < curr.size(); i++)
-            path.pop_back();
-    }
+            path.pop_back(); 
+
+
+//🤣🤣 Haan bhai, string ko vector<char> ki tarah hi treat kar sakte ho kai operations me.
+
+// Bahut logon ko ye late pata chalta hai. 😂
+   }
 
     vector<string> binaryTreePaths(TreeNode* root) {
         vector<string> ans;
