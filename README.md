@@ -117,6 +117,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0022-generate-parentheses](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0022-generate-parentheses/) | Medium |
 | [0079-word-search](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0079-word-search/) | Medium |
 | [0131-palindrome-partitioning](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0131-palindrome-partitioning/) | Medium |
+| [0257-binary-tree-paths](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0257-binary-tree-paths/) | Easy |
 | [0344-reverse-string](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0344-reverse-string/) | Easy |
 | [0424-longest-repeating-character-replacement](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0424-longest-repeating-character-replacement/) | Medium |
 | [0541-reverse-string-ii](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0541-reverse-string-ii/) | Easy |
@@ -198,6 +199,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0113-path-sum-ii](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0113-path-sum-ii/) | Medium |
 | [0131-palindrome-partitioning](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0131-palindrome-partitioning/) | Medium |
 | [0216-combination-sum-iii](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0216-combination-sum-iii/) | Medium |
+| [0257-binary-tree-paths](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0257-binary-tree-paths/) | Easy |
 ## Recursion
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -227,6 +229,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0129-sum-root-to-leaf-numbers](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0129-sum-root-to-leaf-numbers/) | Medium |
 | [0207-course-schedule](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0207-course-schedule/) | Medium |
 | [0226-invert-binary-tree](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0226-invert-binary-tree/) | Easy |
+| [0257-binary-tree-paths](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0257-binary-tree-paths/) | Easy |
 | [0404-sum-of-left-leaves](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0404-sum-of-left-leaves/) | Easy |
 | [0513-find-bottom-left-tree-value](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0513-find-bottom-left-tree-value/) | Medium |
 | [0547-number-of-provinces](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0547-number-of-provinces/) | Medium |
@@ -265,6 +268,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0113-path-sum-ii](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0113-path-sum-ii/) | Medium |
 | [0129-sum-root-to-leaf-numbers](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0129-sum-root-to-leaf-numbers/) | Medium |
 | [0226-invert-binary-tree](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0226-invert-binary-tree/) | Easy |
+| [0257-binary-tree-paths](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0257-binary-tree-paths/) | Easy |
 | [0404-sum-of-left-leaves](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0404-sum-of-left-leaves/) | Easy |
 | [0513-find-bottom-left-tree-value](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0513-find-bottom-left-tree-value/) | Medium |
 | [0993-cousins-in-binary-tree](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0993-cousins-in-binary-tree/) | Easy |
@@ -280,6 +284,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0113-path-sum-ii](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0113-path-sum-ii/) | Medium |
 | [0129-sum-root-to-leaf-numbers](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0129-sum-root-to-leaf-numbers/) | Medium |
 | [0226-invert-binary-tree](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0226-invert-binary-tree/) | Easy |
+| [0257-binary-tree-paths](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0257-binary-tree-paths/) | Easy |
 | [0404-sum-of-left-leaves](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0404-sum-of-left-leaves/) | Easy |
 | [0513-find-bottom-left-tree-value](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0513-find-bottom-left-tree-value/) | Medium |
 | [0993-cousins-in-binary-tree](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0993-cousins-in-binary-tree/) | Easy |
