@@ -1,21 +1,27 @@
-class Solution {//GPT CODE
+class Solution {
 public:
-    void dfs(TreeNode* root, string path, vector<string>& res) {
-        if(root==NULL) return;
+    void dfs(TreeNode* root, string &path, vector<string> &ans) {
+        if (!root) return;
 
-        if(root->left==NULL && root->right==NULL) {
-            res.push_back(path + to_string(root->val));
-            return;
+        int len = path.size();
+
+        path += to_string(root->val);
+
+        if (!root->left && !root->right) {
+            ans.push_back(path);
+        } else {
+            path += "->";
+            dfs(root->left, path, ans);
+            dfs(root->right, path, ans);
         }
 
-        path += to_string(root->val) + "->";
-        dfs(root->left, path, res);
-        dfs(root->right, path, res);
+        path.resize(len); // backtrack
     }
 
     vector<string> binaryTreePaths(TreeNode* root) {
-        vector<string> res;
-        dfs(root, "", res);
-        return res;
+        vector<string> ans;
+        string path;
+        dfs(root, path, ans);
+        return ans;
     }
 };
