@@ -26,7 +26,7 @@ public:
     int sumOfLeftLeaves(TreeNode* root) {
         if(root==NULL)return 0;//empty tree ka sum =0;
         int sum = 0;
-        bool isLeft;
+        bool isLeft=false;
         solve(root,sum,isLeft);
         return sum;
     }
