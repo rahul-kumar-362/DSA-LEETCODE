@@ -3,19 +3,31 @@ public:
     void dfs(TreeNode* root, string &path, vector<string> &ans) {
         if (!root) return;
 
-        int len = path.size();
+        // Kitne characters add karne wale hain?
+        string curr = to_string(root->val);
 
-        path += to_string(root->val);
+        // Node ki value add karo
+        path += curr;
 
+        // Leaf
         if (!root->left && !root->right) {
             ans.push_back(path);
-        } else {
+        }
+        else {
+            // Arrow add karo
             path += "->";
+
             dfs(root->left, path, ans);
             dfs(root->right, path, ans);
+
+            // Arrow hata do
+            path.pop_back(); // >
+            path.pop_back(); // -
         }
 
-        path.resize(len); // backtrack
+        // Node ki value hata do
+        for (int i = 0; i < curr.size(); i++)
+            path.pop_back();
     }
 
     vector<string> binaryTreePaths(TreeNode* root) {
