@@ -136,6 +136,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0207-course-schedule](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0207-course-schedule/) | Medium |
 | [0226-invert-binary-tree](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0226-invert-binary-tree/) | Easy |
 | [0322-coin-change](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0322-coin-change/) | Medium |
+| [0404-sum-of-left-leaves](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0404-sum-of-left-leaves/) | Easy |
 | [0547-number-of-provinces](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0547-number-of-provinces/) | Medium |
 | [0994-rotting-oranges](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0994-rotting-oranges/) | Medium |
 | [1448-count-good-nodes-in-binary-tree](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/1448-count-good-nodes-in-binary-tree/) | Medium |
@@ -224,6 +225,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0129-sum-root-to-leaf-numbers](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0129-sum-root-to-leaf-numbers/) | Medium |
 | [0207-course-schedule](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0207-course-schedule/) | Medium |
 | [0226-invert-binary-tree](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0226-invert-binary-tree/) | Easy |
+| [0404-sum-of-left-leaves](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0404-sum-of-left-leaves/) | Easy |
 | [0547-number-of-provinces](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0547-number-of-provinces/) | Medium |
 | [1448-count-good-nodes-in-binary-tree](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/1448-count-good-nodes-in-binary-tree/) | Medium |
 | [1971-find-if-path-exists-in-graph](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/1971-find-if-path-exists-in-graph/) | Easy |
@@ -259,6 +261,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0113-path-sum-ii](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0113-path-sum-ii/) | Medium |
 | [0129-sum-root-to-leaf-numbers](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0129-sum-root-to-leaf-numbers/) | Medium |
 | [0226-invert-binary-tree](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0226-invert-binary-tree/) | Easy |
+| [0404-sum-of-left-leaves](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0404-sum-of-left-leaves/) | Easy |
 | [1448-count-good-nodes-in-binary-tree](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/1448-count-good-nodes-in-binary-tree/) | Medium |
 ## Binary Tree
 | Problem Name | Difficulty |
@@ -271,6 +274,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0113-path-sum-ii](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0113-path-sum-ii/) | Medium |
 | [0129-sum-root-to-leaf-numbers](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0129-sum-root-to-leaf-numbers/) | Medium |
 | [0226-invert-binary-tree](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0226-invert-binary-tree/) | Easy |
+| [0404-sum-of-left-leaves](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0404-sum-of-left-leaves/) | Easy |
 | [1448-count-good-nodes-in-binary-tree](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/1448-count-good-nodes-in-binary-tree/) | Medium |
 ## Topological Sort
 | Problem Name | Difficulty |
