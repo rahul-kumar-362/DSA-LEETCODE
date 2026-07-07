@@ -1,9 +1,9 @@
 class Solution {//GPT CODE
 public:
     void dfs(TreeNode* root, string path, vector<string>& res) {
-        if(!root) return;
+        if(root==NULL) return;
 
-        if(!root->left && !root->right) {
+        if(root->left==NULL && root->right==NULL) {
             res.push_back(path + to_string(root->val));
             return;
         }
