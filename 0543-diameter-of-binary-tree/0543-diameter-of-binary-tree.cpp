@@ -12,6 +12,8 @@
 class Solution {
 public:
 
+    //SINCE BRUTE FORCE O(N^2) T.C 
+
     int height(TreeNode*root){
         if(root == NULL)return 0;
         return max(height(root->left),height(root->right))+1;
