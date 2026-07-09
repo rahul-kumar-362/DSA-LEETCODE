@@ -233,6 +233,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0257-binary-tree-paths](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0257-binary-tree-paths/) | Easy |
 | [0404-sum-of-left-leaves](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0404-sum-of-left-leaves/) | Easy |
 | [0513-find-bottom-left-tree-value](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0513-find-bottom-left-tree-value/) | Medium |
+| [0543-diameter-of-binary-tree](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0543-diameter-of-binary-tree/) | Easy |
 | [0547-number-of-provinces](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0547-number-of-provinces/) | Medium |
 | [0993-cousins-in-binary-tree](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0993-cousins-in-binary-tree/) | Easy |
 | [1448-count-good-nodes-in-binary-tree](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/1448-count-good-nodes-in-binary-tree/) | Medium |
@@ -273,6 +274,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0257-binary-tree-paths](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0257-binary-tree-paths/) | Easy |
 | [0404-sum-of-left-leaves](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0404-sum-of-left-leaves/) | Easy |
 | [0513-find-bottom-left-tree-value](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0513-find-bottom-left-tree-value/) | Medium |
+| [0543-diameter-of-binary-tree](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0543-diameter-of-binary-tree/) | Easy |
 | [0993-cousins-in-binary-tree](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0993-cousins-in-binary-tree/) | Easy |
 | [1448-count-good-nodes-in-binary-tree](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/1448-count-good-nodes-in-binary-tree/) | Medium |
 ## Binary Tree
@@ -290,6 +292,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0257-binary-tree-paths](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0257-binary-tree-paths/) | Easy |
 | [0404-sum-of-left-leaves](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0404-sum-of-left-leaves/) | Easy |
 | [0513-find-bottom-left-tree-value](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0513-find-bottom-left-tree-value/) | Medium |
+| [0543-diameter-of-binary-tree](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0543-diameter-of-binary-tree/) | Easy |
 | [0993-cousins-in-binary-tree](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0993-cousins-in-binary-tree/) | Easy |
 | [1448-count-good-nodes-in-binary-tree](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/1448-count-good-nodes-in-binary-tree/) | Medium |
 ## Topological Sort
