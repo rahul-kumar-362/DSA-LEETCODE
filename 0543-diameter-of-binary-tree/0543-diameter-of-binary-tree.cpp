@@ -12,18 +12,23 @@
 class Solution {
 public:
 
-    //SINCE BRUTE FORCE O(N^2) T.C 
+    //Optimal O(N) T.C 
 
-    int height(TreeNode*root){
-        if(root == NULL)return 0;
-        return max(height(root->left),height(root->right))+1;
+
+    pair<int,int>solve(TreeNode*root){//for height and diameter simultaneously...
+        if(root == NULL)return make_pair(0,0);//same base case for both ...
+        pair<int,int> leftD = solve(root->left);
+        pair<int,int> rightD = solve(root->right);
+        int currD = leftD.first+rightD.first;//LH+RH 
+        int finalD = max(currD,max(leftD.second,rightD.second));
+
+        int finalHeight = max(leftD.first,rightD.first)+1;//for height ...
+
+        return make_pair(finalHeight,finalD);
     }
+   
     int diameterOfBinaryTree(TreeNode* root) {
-
-        if(root == NULL)return 0;
-        int currDiameter = height(root->left)+height(root->right);//To GET NO OF EDGES..not NODES
-        int leftDiameter = diameterOfBinaryTree(root->left);
-        int rightDiameter = diameterOfBinaryTree(root->right);
-        return max(currDiameter,max(leftDiameter,rightDiameter));
+        pair<int,int>ans = solve(root);
+        return ans.second;
     }
 };
