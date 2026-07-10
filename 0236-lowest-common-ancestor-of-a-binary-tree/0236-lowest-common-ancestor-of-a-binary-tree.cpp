@@ -33,9 +33,9 @@ public:
            
 
             if( left!= NULL && right!=NULL)return root;
-            else if(left)return left;
-            else if(right)return right;
-            return NULL;
+            if(left)return left;
+            
+            return right;
     }
     TreeNode* lowestCommonAncestor(TreeNode* root, TreeNode* p, TreeNode* q) {
         //jispar dono return wahi lowest parent fir return 
