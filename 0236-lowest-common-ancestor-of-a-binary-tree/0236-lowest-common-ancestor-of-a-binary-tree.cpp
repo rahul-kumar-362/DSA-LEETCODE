@@ -21,26 +21,20 @@
 class Solution {
 public:
    
-    TreeNode* solve(TreeNode*root,TreeNode* p, TreeNode* q){ //OPTIMAL...T.C.->O(N)
-
+    //-------------OPTIMAL...T.C.->O(N)-------------//
+    TreeNode* lowestCommonAncestor(TreeNode* root, TreeNode* p, TreeNode* q) {
         if(root == NULL)return NULL;
 
         if(root ==p || root ==q)return root;//checking for getting LCA
 
-            TreeNode* left = solve(root->left,p,q);//check for left
+            TreeNode* left = lowestCommonAncestor(root->left,p,q);//check for left
 
-            TreeNode* right = solve(root->right,p,q);//check for right
+            TreeNode* right = lowestCommonAncestor(root->right,p,q);//check for right
            
 
             if( left!= NULL && right!=NULL)return root;
             if(left)return left;
-            
+
             return right;
-    }
-    TreeNode* lowestCommonAncestor(TreeNode* root, TreeNode* p, TreeNode* q) {
-        //jispar dono return wahi lowest parent fir return 
-
-
-        return solve(root,p,q);
     }
 };
