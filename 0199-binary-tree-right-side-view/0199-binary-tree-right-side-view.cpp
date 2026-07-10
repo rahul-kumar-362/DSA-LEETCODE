@@ -18,23 +18,20 @@ public:
 
 // Isse better asymptotically nahi ho sakta.
 
+
+
+    void dfs(TreeNode* root, int level, vector<int>& ans) {
+        if (!root) return;
+
+        if (level == ans.size())
+            ans.push_back(root->val);
+
+        dfs(root->right, level + 1, ans);
+        dfs(root->left, level + 1, ans);
+    }
     vector<int> rightSideView(TreeNode* root) {
-
-        if(root ==NULL )return {};
-        queue<TreeNode*>q;
-        q.push(root);
-        vector<int>ans;
-        while(!q.empty()){
-            int size = q.size();
-            for(int i=0;i<size;i++){
-                TreeNode* front = q.front();
-                q.pop();
-                if(front->left)q.push(front->left);
-                if(front->right)q.push(front->right);
-
-                if(i==size-1)ans.push_back(front->val);
-            }
-        }
+        vector<int> ans;
+        dfs(root, 0, ans);
         return ans;
     }
 };
