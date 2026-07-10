@@ -134,6 +134,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0103-binary-tree-zigzag-level-order-traversal](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0103-binary-tree-zigzag-level-order-traversal/) | Medium |
 | [0107-binary-tree-level-order-traversal-ii](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0107-binary-tree-level-order-traversal-ii/) | Medium |
 | [0112-path-sum](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0112-path-sum/) | Easy |
+| [0199-binary-tree-right-side-view](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0199-binary-tree-right-side-view/) | Medium |
 | [0207-course-schedule](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0207-course-schedule/) | Medium |
 | [0226-invert-binary-tree](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0226-invert-binary-tree/) | Easy |
 | [0322-coin-change](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0322-coin-change/) | Medium |
@@ -228,6 +229,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0112-path-sum](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0112-path-sum/) | Easy |
 | [0113-path-sum-ii](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0113-path-sum-ii/) | Medium |
 | [0129-sum-root-to-leaf-numbers](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0129-sum-root-to-leaf-numbers/) | Medium |
+| [0199-binary-tree-right-side-view](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0199-binary-tree-right-side-view/) | Medium |
 | [0207-course-schedule](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0207-course-schedule/) | Medium |
 | [0226-invert-binary-tree](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0226-invert-binary-tree/) | Easy |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0236-lowest-common-ancestor-of-a-binary-tree/) | Medium |
@@ -271,6 +273,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0112-path-sum](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0112-path-sum/) | Easy |
 | [0113-path-sum-ii](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0113-path-sum-ii/) | Medium |
 | [0129-sum-root-to-leaf-numbers](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0129-sum-root-to-leaf-numbers/) | Medium |
+| [0199-binary-tree-right-side-view](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0199-binary-tree-right-side-view/) | Medium |
 | [0226-invert-binary-tree](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0226-invert-binary-tree/) | Easy |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0236-lowest-common-ancestor-of-a-binary-tree/) | Medium |
 | [0257-binary-tree-paths](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0257-binary-tree-paths/) | Easy |
@@ -290,6 +293,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0112-path-sum](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0112-path-sum/) | Easy |
 | [0113-path-sum-ii](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0113-path-sum-ii/) | Medium |
 | [0129-sum-root-to-leaf-numbers](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0129-sum-root-to-leaf-numbers/) | Medium |
+| [0199-binary-tree-right-side-view](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0199-binary-tree-right-side-view/) | Medium |
 | [0226-invert-binary-tree](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0226-invert-binary-tree/) | Easy |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0236-lowest-common-ancestor-of-a-binary-tree/) | Medium |
 | [0257-binary-tree-paths](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0257-binary-tree-paths/) | Easy |
