@@ -20,7 +20,7 @@ public: //since we have told to to of same HD together
         map<pair<int,int>,vector<int>>mpp;//for HD,DEPTH->VALUES
         vector<vector<int>>ans;
         queue<pair<TreeNode*,int>>q;//for NODE and HD ...
-        q.push(make_pair(root,0));
+        q.emplace(root,0);
         
         while(!q.empty()){
             int size = q.size();
@@ -29,9 +29,9 @@ public: //since we have told to to of same HD together
                 auto front = q.front().first;
                 int HD = q.front().second;//mere hisaab se
                 q.pop();
-                mpp[make_pair(HD,DEPTH)].push_back(front->val);
-                if(front->left)q.push(make_pair(front->left,HD-1));
-                if(front->right)q.push(make_pair(front->right,HD+1));
+                mpp[{HD,DEPTH}].push_back(front->val);
+                if(front->left)q.emplace(front->left,HD-1);
+                if(front->right)q.emplace(front->right,HD+1);
             }
             DEPTH++;
         }
