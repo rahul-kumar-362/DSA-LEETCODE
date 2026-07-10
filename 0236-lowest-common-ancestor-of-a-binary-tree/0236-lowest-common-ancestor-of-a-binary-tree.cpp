@@ -21,7 +21,7 @@
 class Solution {
 public:
    
-    //-------------OPTIMAL...T.C.->O(N)-------------//
+    //-------------OPTIMAL...T.C.->O(N) & S.C.->O(N)-------------//
     TreeNode* lowestCommonAncestor(TreeNode* root, TreeNode* p, TreeNode* q) {
         if(root == NULL)return NULL;
 
