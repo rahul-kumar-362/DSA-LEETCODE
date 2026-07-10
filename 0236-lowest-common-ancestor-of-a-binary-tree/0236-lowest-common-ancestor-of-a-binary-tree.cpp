@@ -32,9 +32,9 @@ public:
         else if(root == q){
             r = true;
         }
-        // else if(l && r){//agar dono true ... toh //recursion se pehle kaise...
-        //     return true;
-        // }
+        else if(l && r){//agar dono true ... toh //recursion se pehle kaise...
+            return true;
+        }
         isValidSubtree(root->left,p,q,l,r);
         isValidSubtree(root->right,p,q,l,r);
         return l&&r;//recursion ke baad CHECK
