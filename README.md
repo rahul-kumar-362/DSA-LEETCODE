@@ -141,6 +141,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0404-sum-of-left-leaves](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0404-sum-of-left-leaves/) | Easy |
 | [0513-find-bottom-left-tree-value](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0513-find-bottom-left-tree-value/) | Medium |
 | [0547-number-of-provinces](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0547-number-of-provinces/) | Medium |
+| [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0987-vertical-order-traversal-of-a-binary-tree/) | Hard |
 | [0993-cousins-in-binary-tree](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0993-cousins-in-binary-tree/) | Easy |
 | [0994-rotting-oranges](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0994-rotting-oranges/) | Medium |
 | [1448-count-good-nodes-in-binary-tree](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/1448-count-good-nodes-in-binary-tree/) | Medium |
@@ -170,6 +171,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0424-longest-repeating-character-replacement](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0424-longest-repeating-character-replacement/) | Medium |
 | [0904-fruit-into-baskets](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0904-fruit-into-baskets/) | Medium |
 | [0930-binary-subarrays-with-sum](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0930-binary-subarrays-with-sum/) | Medium |
+| [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0987-vertical-order-traversal-of-a-binary-tree/) | Hard |
 | [0992-subarrays-with-k-different-integers](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0992-subarrays-with-k-different-integers/) | Hard |
 | [1248-count-number-of-nice-subarrays](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/1248-count-number-of-nice-subarrays/) | Medium |
 ## Sliding Window
@@ -238,6 +240,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0513-find-bottom-left-tree-value](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0513-find-bottom-left-tree-value/) | Medium |
 | [0543-diameter-of-binary-tree](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0543-diameter-of-binary-tree/) | Easy |
 | [0547-number-of-provinces](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0547-number-of-provinces/) | Medium |
+| [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0987-vertical-order-traversal-of-a-binary-tree/) | Hard |
 | [0993-cousins-in-binary-tree](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0993-cousins-in-binary-tree/) | Easy |
 | [1448-count-good-nodes-in-binary-tree](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/1448-count-good-nodes-in-binary-tree/) | Medium |
 | [1971-find-if-path-exists-in-graph](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/1971-find-if-path-exists-in-graph/) | Easy |
@@ -258,6 +261,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0015-3sum](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0015-3sum/) | Medium |
 | [0018-4sum](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0018-4sum/) | Medium |
 | [0047-permutations-ii](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0047-permutations-ii/) | Medium |
+| [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0987-vertical-order-traversal-of-a-binary-tree/) | Hard |
 ## Counting
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -280,6 +284,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0404-sum-of-left-leaves](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0404-sum-of-left-leaves/) | Easy |
 | [0513-find-bottom-left-tree-value](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0513-find-bottom-left-tree-value/) | Medium |
 | [0543-diameter-of-binary-tree](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0543-diameter-of-binary-tree/) | Easy |
+| [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0987-vertical-order-traversal-of-a-binary-tree/) | Hard |
 | [0993-cousins-in-binary-tree](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0993-cousins-in-binary-tree/) | Easy |
 | [1448-count-good-nodes-in-binary-tree](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/1448-count-good-nodes-in-binary-tree/) | Medium |
 ## Binary Tree
@@ -300,6 +305,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0404-sum-of-left-leaves](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0404-sum-of-left-leaves/) | Easy |
 | [0513-find-bottom-left-tree-value](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0513-find-bottom-left-tree-value/) | Medium |
 | [0543-diameter-of-binary-tree](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0543-diameter-of-binary-tree/) | Easy |
+| [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0987-vertical-order-traversal-of-a-binary-tree/) | Hard |
 | [0993-cousins-in-binary-tree](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0993-cousins-in-binary-tree/) | Easy |
 | [1448-count-good-nodes-in-binary-tree](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/1448-count-good-nodes-in-binary-tree/) | Medium |
 ## Topological Sort
