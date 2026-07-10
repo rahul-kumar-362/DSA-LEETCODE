@@ -43,16 +43,13 @@ public: //since we have told to to of same HD together
 
         for( ;it!=mpp.end();it++){
             if(it->first.first == currHD){//pichla HD  same toh merge
-                vector<int> last = ans.back();
-                ans.pop_back();
+                
                 //AB MERGE
 
                 vector<int> &temp = it->second;//USE REFERENCE TO AVOID COPY...
 
                 sort(temp.begin(),temp.end());//PEHLE SORT FIR MERGE...
-                last.insert(last.end(),temp.begin(),temp.end());
-                
-                ans.push_back(last);
+                ans.back().insert(ans.back().end(), temp.begin(), temp.end());
             }
             else {
                 vector<int>& temp = it->second;
