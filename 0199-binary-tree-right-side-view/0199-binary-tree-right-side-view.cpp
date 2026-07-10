@@ -11,7 +11,13 @@
  */
 class Solution {
 public:
-//brute force .... DFS mai right
+// OPTIMAL SOLUTION... 
+// Complexity
+// Time: O(n)
+// Space: O(width) (worst case O(n))
+
+// Isse better asymptotically nahi ho sakta.
+
     vector<int> rightSideView(TreeNode* root) {
 
         if(root ==NULL )return {};
