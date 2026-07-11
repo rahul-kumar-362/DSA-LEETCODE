@@ -23,7 +23,7 @@ public:
         k--;
         if(k==0){
             ans=root->val;
-            // return;
+             return;
         }
         inorder(root->right,k,ans);
     }
