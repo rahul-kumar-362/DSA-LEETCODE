@@ -8,7 +8,7 @@ public:
             vector<int>hashmapp(26,0);
             for(int j=i;j<n;j++){
 
-                hashmapp[s[j]-'a']++;
+                hashmapp[s[j]-'a']++; //SINCE PICHLA STORE RAHEGA
 
                 int maxi=0;
                 int mini=500;
