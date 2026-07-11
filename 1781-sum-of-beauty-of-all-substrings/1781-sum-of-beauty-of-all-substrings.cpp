@@ -1,7 +1,7 @@
 class Solution {
 public:
     int beautySum(string s) {//saare substrings ke liye
-        //BRUTE FORCE APPROACH
+        //BRUTE FORCE APPROACH - FURTHER OPTIMISED TILL O(N^2)
         int n=s.size();
         int count=0;
         for(int i=0;i<n;i++){
