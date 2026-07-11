@@ -14,20 +14,19 @@ public:
     //MY OPTIMAL...
     //since the inorder is sorted...?
 
-    void inorder(TreeNode*root,int &count,int &k,int &ans){
-        if(root == NULL || count>=k)return ;//since sirf wo lagane se pura bahar nhi jara tha
-        inorder(root->left,count,k,ans);
-        count++;
-        if(count==k){
+    void inorder(TreeNode*root,int &k,int &ans){
+        if(root == NULL || k<0 )return ;//since sirf wo lagane se pura bahar nhi jara tha
+        inorder(root->left,k,ans);
+        k--;
+        if(k==0){
             ans=root->val;
             return;
         }
-        inorder(root->right,count,k,ans);
+        inorder(root->right,k,ans);
     }
     int kthSmallest(TreeNode* root, int k) {
         int ans=0;
-        int count=0;
-        inorder(root,count,k,ans);
+        inorder(root,k,ans);
         return ans;
     }
 };
