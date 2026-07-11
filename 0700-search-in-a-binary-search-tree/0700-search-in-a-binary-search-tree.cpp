@@ -17,17 +17,12 @@ public:
         //ASSUMING value not equal
         if(root == NULL )return NULL;
         if(root->val == val)return root;
-
-        TreeNode* left = NULL;
-        TreeNode* right = NULL;
+    
         if(val<root->val){//toh left TREE traverse
-            left = searchBST(root->left,val);
+            return searchBST(root->left,val);
         }
-        if(root->val<val){//toh left TREE traverse
-            right = searchBST(root->right,val);
+        else {//toh left TREE traverse
+            return searchBST(root->right,val);
         }
-
-        if(left )return left;
-        return right;
     }
 };
