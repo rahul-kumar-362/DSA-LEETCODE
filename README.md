@@ -226,6 +226,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0079-word-search](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0079-word-search/) | Medium |
+| [0098-validate-binary-search-tree](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0098-validate-binary-search-tree/) | Medium |
 | [0101-symmetric-tree](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0101-symmetric-tree/) | Easy |
 | [0110-balanced-binary-tree](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0110-balanced-binary-tree/) | Easy |
 | [0112-path-sum](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0112-path-sum/) | Easy |
@@ -269,6 +270,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Tree
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0098-validate-binary-search-tree](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0098-validate-binary-search-tree/) | Medium |
 | [0101-symmetric-tree](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0101-symmetric-tree/) | Easy |
 | [0102-binary-tree-level-order-traversal](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0102-binary-tree-level-order-traversal/) | Medium |
 | [0103-binary-tree-zigzag-level-order-traversal](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0103-binary-tree-zigzag-level-order-traversal/) | Medium |
@@ -292,6 +294,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Binary Tree
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0098-validate-binary-search-tree](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0098-validate-binary-search-tree/) | Medium |
 | [0101-symmetric-tree](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0101-symmetric-tree/) | Easy |
 | [0102-binary-tree-level-order-traversal](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0102-binary-tree-level-order-traversal/) | Medium |
 | [0103-binary-tree-zigzag-level-order-traversal](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0103-binary-tree-zigzag-level-order-traversal/) | Medium |
@@ -319,6 +322,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Binary Search Tree
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0098-validate-binary-search-tree](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0098-validate-binary-search-tree/) | Medium |
 | [0700-search-in-a-binary-search-tree](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0700-search-in-a-binary-search-tree/) | Easy |
 | [0701-insert-into-a-binary-search-tree](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0701-insert-into-a-binary-search-tree/) | Medium |
 <!---LeetCode Topics End-->
