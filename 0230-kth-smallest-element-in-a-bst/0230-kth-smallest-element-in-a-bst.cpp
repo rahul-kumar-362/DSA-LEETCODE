@@ -15,7 +15,7 @@ public:
     //since the inorder is sorted...?
 
     void inorder(TreeNode*root,int &count,int &k,int &ans){
-        if(root == NULL)return ;
+        if(root == NULL || count>=k)return ;//since sirf wo lagane se pura bahar nhi jara tha
         inorder(root->left,count,k,ans);
         count++;
         if(count==k){
