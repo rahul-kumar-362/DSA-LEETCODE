@@ -124,6 +124,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0424-longest-repeating-character-replacement](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0424-longest-repeating-character-replacement/) | Medium |
 | [0541-reverse-string-ii](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0541-reverse-string-ii/) | Easy |
 | [1143-longest-common-subsequence](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/1143-longest-common-subsequence/) | Medium |
+| [1781-sum-of-beauty-of-all-substrings](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/1781-sum-of-beauty-of-all-substrings/) | Medium |
 ## Combinatorics
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -176,6 +177,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0987-vertical-order-traversal-of-a-binary-tree/) | Hard |
 | [0992-subarrays-with-k-different-integers](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0992-subarrays-with-k-different-integers/) | Hard |
 | [1248-count-number-of-nice-subarrays](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/1248-count-number-of-nice-subarrays/) | Medium |
+| [1781-sum-of-beauty-of-all-substrings](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/1781-sum-of-beauty-of-all-substrings/) | Medium |
 ## Sliding Window
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -269,6 +271,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0992-subarrays-with-k-different-integers](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0992-subarrays-with-k-different-integers/) | Hard |
+| [1781-sum-of-beauty-of-all-substrings](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/1781-sum-of-beauty-of-all-substrings/) | Medium |
 ## Tree
 | Problem Name | Difficulty |
 | ------- | ------- |
