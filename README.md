@@ -284,6 +284,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0404-sum-of-left-leaves](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0404-sum-of-left-leaves/) | Easy |
 | [0513-find-bottom-left-tree-value](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0513-find-bottom-left-tree-value/) | Medium |
 | [0543-diameter-of-binary-tree](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0543-diameter-of-binary-tree/) | Easy |
+| [0700-search-in-a-binary-search-tree](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0700-search-in-a-binary-search-tree/) | Easy |
 | [0701-insert-into-a-binary-search-tree](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0701-insert-into-a-binary-search-tree/) | Medium |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0987-vertical-order-traversal-of-a-binary-tree/) | Hard |
 | [0993-cousins-in-binary-tree](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0993-cousins-in-binary-tree/) | Easy |
@@ -306,6 +307,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0404-sum-of-left-leaves](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0404-sum-of-left-leaves/) | Easy |
 | [0513-find-bottom-left-tree-value](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0513-find-bottom-left-tree-value/) | Medium |
 | [0543-diameter-of-binary-tree](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0543-diameter-of-binary-tree/) | Easy |
+| [0700-search-in-a-binary-search-tree](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0700-search-in-a-binary-search-tree/) | Easy |
 | [0701-insert-into-a-binary-search-tree](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0701-insert-into-a-binary-search-tree/) | Medium |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0987-vertical-order-traversal-of-a-binary-tree/) | Hard |
 | [0993-cousins-in-binary-tree](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0993-cousins-in-binary-tree/) | Easy |
@@ -317,5 +319,6 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Binary Search Tree
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0700-search-in-a-binary-search-tree](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0700-search-in-a-binary-search-tree/) | Easy |
 | [0701-insert-into-a-binary-search-tree](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0701-insert-into-a-binary-search-tree/) | Medium |
 <!---LeetCode Topics End-->
