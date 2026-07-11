@@ -5,11 +5,11 @@ public:
         int n=s.size();
         int count=0;
         for(int i=0;i<n;i++){
+            vector<int>hashmapp(26,0);
             for(int j=i;j<n;j++){
-                vector<int>hashmapp(26,0);
-                for(int k=i;k<=j;k++){
-                    hashmapp[s[k]-'a']++;
-                }
+
+                hashmapp[s[j]-'a']++;
+
                 int maxi=0;
                 int mini=500;
                 for(int l=0;l<26;l++){
@@ -20,6 +20,11 @@ public:
                 }
 
              count+=abs(maxi-mini);  
+              
+                // for(int k=i;k<=j;k++){
+                    
+                // }
+              
             }
         }
             return count;
