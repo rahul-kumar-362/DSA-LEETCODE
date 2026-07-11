@@ -15,12 +15,15 @@ public:
     //since the inorder is sorted...?
 
     void inorder(TreeNode*root,int &k,int &ans){
-        if(root == NULL || k<0 )return ;//since sirf wo lagane se pura bahar nhi jara tha
+        if(root == NULL || k==0 )return ;//since sirf wo lagane se pura bahar nhi jara tha
         inorder(root->left,k,ans);
+
+
+        if(k == 0)return;  //EK BAAR sirf left Node ke luye bhi dekhlo
         k--;
         if(k==0){
             ans=root->val;
-            return;
+            // return;
         }
         inorder(root->right,k,ans);
     }
