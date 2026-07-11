@@ -17,6 +17,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Dynamic Programming
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0005-longest-palindromic-substring](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0005-longest-palindromic-substring/) | Medium |
 | [0022-generate-parentheses](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0022-generate-parentheses/) | Medium |
 | [0042-trapping-rain-water](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0042-trapping-rain-water/) | Hard |
 | [0053-maximum-subarray](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0053-maximum-subarray/) | Medium |
@@ -95,6 +96,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Two Pointers
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0005-longest-palindromic-substring](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0005-longest-palindromic-substring/) | Medium |
 | [0015-3sum](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0015-3sum/) | Medium |
 | [0018-4sum](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0018-4sum/) | Medium |
 | [0031-next-permutation](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0031-next-permutation/) | Medium |
@@ -113,6 +115,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## String
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0005-longest-palindromic-substring](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0005-longest-palindromic-substring/) | Medium |
 | [0006-zigzag-conversion](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0006-zigzag-conversion/) | Medium |
 | [0008-string-to-integer-atoi](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0008-string-to-integer-atoi/) | Medium |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0017-letter-combinations-of-a-phone-number/) | Medium |
