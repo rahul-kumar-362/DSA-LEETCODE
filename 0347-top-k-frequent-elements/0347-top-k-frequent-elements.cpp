@@ -44,5 +44,23 @@ public:
         }
 
         return ans;
+
+        // Time Complexity:
+// Frequency Map      -> O(n)
+// Vector Creation    -> O(m)
+// Heapify            -> O(m)
+// Extract Top k      -> O(k log m)
+// Total              -> O(n + m + k log m)
+// Worst Case (m = n) -> O(n + k log n)
+
+// Space Complexity:
+// unordered_map      -> O(m)
+// vector<pair>       -> O(m)
+// priority_queue     -> O(m)
+// answer vector      -> O(k)
+// Total              -> O(m + k)
+// Worst Case         -> O(n + k)
+
+//m = number of unique elements.
     }
 };
