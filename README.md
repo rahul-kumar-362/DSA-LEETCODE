@@ -70,6 +70,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0260-single-number-iii](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0260-single-number-iii/) | Medium |
 | [0300-longest-increasing-subsequence](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0300-longest-increasing-subsequence/) | Medium |
 | [0322-coin-change](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0322-coin-change/) | Medium |
+| [0347-top-k-frequent-elements](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0347-top-k-frequent-elements/) | Medium |
 | [0540-single-element-in-a-sorted-array](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0540-single-element-in-a-sorted-array/) | Medium |
 | [0875-koko-eating-bananas](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0875-koko-eating-bananas/) | Medium |
 | [0904-fruit-into-baskets](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0904-fruit-into-baskets/) | Medium |
@@ -93,6 +94,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0053-maximum-subarray](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0053-maximum-subarray/) | Medium |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0108-convert-sorted-array-to-binary-search-tree/) | Easy |
 | [0240-search-a-2d-matrix-ii](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0240-search-a-2d-matrix-ii/) | Medium |
+| [0347-top-k-frequent-elements](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0347-top-k-frequent-elements/) | Medium |
 ## Two Pointers
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -174,6 +176,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0001-two-sum](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0001-two-sum/) | Easy |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0017-letter-combinations-of-a-phone-number/) | Medium |
 | [0073-set-matrix-zeroes](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0073-set-matrix-zeroes/) | Medium |
+| [0347-top-k-frequent-elements](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0347-top-k-frequent-elements/) | Medium |
 | [0424-longest-repeating-character-replacement](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0424-longest-repeating-character-replacement/) | Medium |
 | [0904-fruit-into-baskets](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0904-fruit-into-baskets/) | Medium |
 | [0930-binary-subarrays-with-sum](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0930-binary-subarrays-with-sum/) | Medium |
@@ -270,10 +273,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0015-3sum](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0015-3sum/) | Medium |
 | [0018-4sum](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0018-4sum/) | Medium |
 | [0047-permutations-ii](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0047-permutations-ii/) | Medium |
+| [0347-top-k-frequent-elements](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0347-top-k-frequent-elements/) | Medium |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0987-vertical-order-traversal-of-a-binary-tree/) | Hard |
 ## Counting
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0347-top-k-frequent-elements](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0347-top-k-frequent-elements/) | Medium |
 | [0992-subarrays-with-k-different-integers](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0992-subarrays-with-k-different-integers/) | Hard |
 | [1781-sum-of-beauty-of-all-substrings](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/1781-sum-of-beauty-of-all-substrings/) | Medium |
 ## Tree
@@ -343,4 +348,16 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0450-delete-node-in-a-bst](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0450-delete-node-in-a-bst/) | Medium |
 | [0700-search-in-a-binary-search-tree](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0700-search-in-a-binary-search-tree/) | Easy |
 | [0701-insert-into-a-binary-search-tree](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0701-insert-into-a-binary-search-tree/) | Medium |
+## Heap (Priority Queue)
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0347-top-k-frequent-elements](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0347-top-k-frequent-elements/) | Medium |
+## Bucket Sort
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0347-top-k-frequent-elements](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0347-top-k-frequent-elements/) | Medium |
+## Quickselect
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0347-top-k-frequent-elements](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0347-top-k-frequent-elements/) | Medium |
 <!---LeetCode Topics End-->
