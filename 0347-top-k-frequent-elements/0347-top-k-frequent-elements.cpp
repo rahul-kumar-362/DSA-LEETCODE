@@ -1,50 +1,79 @@
 class Solution {
 public:
     vector<int> topKFrequent(vector<int>& nums, int k) {
-    //MOST OPTIMAL SOLUTION IS :
-    //BUCKETSORT
 
-    //BASE - max toh frequency k hi hogi kisi ki bhi ...
+        // -------------------------------
+        // MOST OPTIMAL APPROACH : Bucket Sort
+        // -------------------------------
 
-    unordered_map<int,int>mpp;
-    int n=nums.size();
+        // Observation:
+        // Maximum frequency of any element can be at most n.
+        // So, instead of sorting by frequency, use the frequency itself
+        // as the index of a bucket.
 
-    for(int i=0;i<n;i++){
-        mpp[nums[i]]++;//storing the frequency in map
-    }
-    vector<vector<int>>bucket(n+1);//for storing frequency wise taaki le saku 
+        unordered_map<int, int> freq;
+        int n = nums.size();
 
-    for(auto &i : mpp){
-        bucket[i.second].push_back(i.first);//bucket ki uss frequency par pushback bcz max n 
-        //{{},{3},{2},{1},{},{}}
-    }
+        // Step 1: Store frequency of every element
+        for (int x : nums)
+            freq[x]++;
 
-    //now traverse from back side since want max
-    //THEREFORE,
-    vector<int>ans;
-    for(int i=n;i>=1;i--){ //uss frequency ke saare elements nikaldo
-    // if( !bucket[i].empty()){
-    //         ans.push_back(nums[i]);
-    //     }
-    
-        for(int j=0;j<bucket[i].size();j++){
-            ans.push_back(bucket[i][j]);//wth
+        // bucket[i] = stores all elements having frequency i
+        vector<vector<int>> bucket(n + 1);
 
-            if(ans.size()==k)return ans;//matlab bhargaya
+        // Step 2: Place every element into its corresponding frequency bucket
+        for (auto &it : freq)
+            bucket[it.second].push_back(it.first);
+
+        vector<int> ans;
+
+        // Step 3: Traverse buckets from highest frequency to lowest
+        for (int i = n; i >= 1; i--) {
+
+            // Extract all elements having frequency i
+            for (int x : bucket[i]) {
+
+                ans.push_back(x);
+
+                // Stop once we have collected k elements
+                if (ans.size() == k)
+                    return ans;
+            }
         }
-    }
+
         return ans;
     }
-
-
-    //Time Complexity
-// Frequency Map     -> O(n)
-// Fill Buckets      -> O(m)
-// Traverse Buckets  -> O(n)
-// Total             -> O(n)
-    //Space Complexity
-// unordered_map     -> O(m)
-// buckets           -> O(n)
-// answer            -> O(k)
-// Total             -> O(n)
 };
+
+/*
+Time Complexity:
+----------------
+Building Frequency Map  : O(n)
+Filling Buckets         : O(m)
+Traversing Buckets      : O(n)
+
+Total                   : O(n)
+
+(where m = number of unique elements)
+
+------------------------------------------------
+
+Space Complexity:
+-----------------
+unordered_map           : O(m)
+Buckets                 : O(n)
+Answer Vector           : O(k)
+
+Total                   : O(n)
+
+------------------------------------------------
+
+Core Idea:
+----------
+Maximum frequency of any element is at most n.
+So, create n+1 buckets where:
+bucket[i] stores all elements having frequency i.
+
+Traverse buckets from n -> 1 to directly obtain
+the k most frequent elements without sorting or using a heap.
+*/
