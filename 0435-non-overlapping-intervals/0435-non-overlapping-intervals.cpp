@@ -1,55 +1,52 @@
 class Solution {
 public:
-
-    bool isPrevOverlapped(int &prev1 ,int &prev2,int i,vector<vector<int>>& intervals){
-        int curr1 = intervals[i][0];
-        int curr2 = intervals[i][1];
-
-        if(prev2>curr1)return true;//since eQual wale ko alag lena padega
-        return false;
-    }
     int eraseOverlapIntervals(vector<vector<int>>& intervals) {
-        //SIMPLE GREEDY ALGORITHM ... 
-        //AGAR PICHLA WALA OVERLAPPING HAI TOH...
 
+        // SIMPLE GREEDY ALGORITHM...
 
-        //check karunga current se,JO bada wo nikal dunga
-        //kyuki wo aage jaake aur problems create karega
+        // Agar previous aur current overlap karte hain...
+        // Toh dono me se us interval ko rakhenge
+        // Jo sabse jaldi khatam ho (smaller end)
+        // Kyuki wo future ke intervals ke liye zyada space chhodta hai.
 
+        sort(intervals.begin(), intervals.end());
 
         int n = intervals.size();
 
-        sort(intervals.begin(),intervals.end());
+        int prevEnd = intervals[0][1];
 
-        int prev1 = intervals[0][0];
-        int prev2 = intervals[0][1];
+        int count = 0;
 
+        for (int i = 1; i < n; i++) {
 
-        
-        int count=0;
+            int currStart = intervals[i][0];
+            int currEnd   = intervals[i][1];
 
-        for(int i=1;i<n;i++){
-            if(isPrevOverlapped(prev1,prev2,i,intervals)){//AGAR prev se overlapped hai toh 
-                // int currD= intervals[i][1]-intervals[i][0];
-                // int prevD = prev2-prev1;
+            // AGAR overlap hai...
+            if (currStart < prevEnd) {
 
-                int curr1 = intervals[i][0];
-                int curr2 = intervals[i][1];
+                // Ek interval delete karna hi padega
+                count++;
 
-                if(curr2>=prev2){//agar jaldi prev khali toh ... kuch nhi karna ++
-                    count++;//delete kar skte hai
+                // Agar current jaldi khatam ho raha hai
+                // Toh previous ko delete maan lo
+                // Aur current ko survivor bana do
+                if (currEnd < prevEnd) {
+                    prevEnd = currEnd;
                 }
-                else{//MATLAB CURR pehle khali hora hai toh prev delete 
-                    count++;
-                    prev1 = intervals[i][0];
-                    prev2 = intervals[i][1];
-                }
+
+                // Warna current delete ho gaya
+                // prevEnd same rahega
+
             }
-            else{ //AGAR overlap hi nahi hai toh aage badhenge aur prev update
-                prev1 = intervals[i][0];
-                prev2 = intervals[i][1];
+            else {
+
+                // AGAR overlap hi nahi hai
+                // Toh current ab naya previous ban jayega
+                prevEnd = currEnd;
             }
         }
-        return count; 
+
+        return count;
     }
 };
