@@ -36,16 +36,16 @@ public:
                 int curr1 = intervals[i][0];
                 int curr2 = intervals[i][1];
 
-                if(curr2>=prev2){//bada ya equal toh lena hi nahi.. //DEKHNA PADEGA
+                if(curr2>=prev2){//agar jaldi prev khali toh ... kuch nhi karna ++
                     count++;//delete kar skte hai
                 }
-                else{//toh current previous ban jayega
+                else{//MATLAB CURR pehle khali hora hai toh prev delete 
                     count++;
                     prev1 = intervals[i][0];
                     prev2 = intervals[i][1];
                 }
             }
-            else{
+            else{ //AGAR overlap hi nahi hai toh aage badhenge aur prev update
                 prev1 = intervals[i][0];
                 prev2 = intervals[i][1];
             }
