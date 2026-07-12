@@ -11,19 +11,36 @@ public:
             mpp[nums[i]]++;
         }
 
-        // vector<pair<int,int>>p;
+        
 
-        priority_queue<pair<int,int>>p;
-        for(auto &it:mpp){
-            p.push({it.second,it.first});
-        }
+        // priority_queue<pair<int,int>>p;
+        // for(auto &it:mpp){
+        //     p.push({it.second,it.first});
+        // }
+        //         Current
+
+        // m insertions
+
+        // O(m log m)
+
+        // Optimized
+
+        // Build vector : O(m)
+
+        // Heapify : O(m)
 
   
 
+        vector<pair<int,int>>p;
+        for(auto &it : mpp){
+            p.push_back({it.second, it.first});
+        }
+
+        priority_queue<pair<int,int>>pq(p.begin(),p.end());//banado pq O(m) mai...
 
         for(int i=0;i<k;i++){
-          ans.push_back(p.top().second);
-          p.pop();
+          ans.push_back(pq.top().second);
+          pq.pop();
         }
 
         return ans;
