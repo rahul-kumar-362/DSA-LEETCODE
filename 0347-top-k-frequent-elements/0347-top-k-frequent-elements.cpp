@@ -35,4 +35,16 @@ public:
     }
         return ans;
     }
+
+
+    //Time Complexity
+// Frequency Map     -> O(n)
+// Fill Buckets      -> O(m)
+// Traverse Buckets  -> O(n)
+// Total             -> O(n)
+    //Space Complexity
+// unordered_map     -> O(m)
+// buckets           -> O(n)
+// answer            -> O(k)
+// Total             -> O(n)
 };
