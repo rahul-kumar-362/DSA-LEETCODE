@@ -1,27 +1,31 @@
 class Solution {
 public:
 
-    //MOST OPTIMAL O(N) - GREEDY APPROACH SOLUTION ....
-       int jump(vector<int>& nums) {
-        // Initialize variables to keep track of range and jumps
-        int jumps = 0, currentEnd = 0, farthest = 0;
+    // MOST OPTIMAL O(N) - GREEDY APPROACH
+    int jump(vector<int>& nums) {
 
-        // Traverse through the array (excluding the last element)
-        for (int i = 0; i < nums.size() - 1; ++i) {
-            // Update the farthest index that can be reached so far
-            farthest = max(farthest, i + nums[i]);
+        int n = nums.size();
+        if(n == 1) return 0;
 
-            // When we reach the end of the current jump range
-            if (i == currentEnd) {
-                // We need to make a jump
+        int jumps = 0;
+        int L = 0;      // Current index
+        int R = 0;      // Current jump ki boundary
+        int temp = 0;   // Farthest index jo ab tak reach kar sakte hain
+
+        while(L < n - 1) {
+
+            // Current position se sabse door tak pahunch sakte hain
+            temp = max(temp, L + nums[L]);
+
+            // Agar current jump ki boundary par aa gaye
+            if(L == R) {
                 jumps++;
-
-                // Move the current end to the farthest index we can reach
-                currentEnd = farthest;
+                R = temp;
             }
+
+            L++;
         }
 
-        // Return the total jumps needed
         return jumps;
     }
 };
