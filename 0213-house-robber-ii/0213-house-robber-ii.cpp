@@ -6,7 +6,7 @@ public:
 // "Cannot take adjacent"
 
 // → THINK:
-// max(dp[i-1], dp[i-2] + nums[i])
+// max(dp[i-1], dp[i-2] + nums[i]);
 
 
 
@@ -39,5 +39,6 @@ public:
     }
 
     return max(robx(temp1),robx(temp2));
+    //OHH bc MATLAB max of left wala and right wala 
     }
 };
