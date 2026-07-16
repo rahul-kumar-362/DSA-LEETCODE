@@ -21,7 +21,7 @@ public:
 
         for(int i=0;i<n;i++){
             currsum+=nums[i];//har baar cur_sum nikal lo
-            currsum=max(currsum,nums[i]);
+            currsum=max(currsum,nums[i]);//pich
             maxsum=max(currsum,maxsum);
         }
 
