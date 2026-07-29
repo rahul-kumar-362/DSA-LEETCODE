@@ -121,6 +121,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0042-trapping-rain-water](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0042-trapping-rain-water/) | Hard |
+| [2390-removing-stars-from-a-string](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/2390-removing-stars-from-a-string/) | Medium |
 ## Monotonic Stack
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -142,6 +143,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0541-reverse-string-ii](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0541-reverse-string-ii/) | Easy |
 | [1143-longest-common-subsequence](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/1143-longest-common-subsequence/) | Medium |
 | [1781-sum-of-beauty-of-all-substrings](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/1781-sum-of-beauty-of-all-substrings/) | Medium |
+| [2390-removing-stars-from-a-string](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/2390-removing-stars-from-a-string/) | Medium |
 ## Combinatorics
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -381,4 +383,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- | ------- |
 | [0045-jump-game-ii](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0045-jump-game-ii/) | Medium |
 | [0435-non-overlapping-intervals](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0435-non-overlapping-intervals/) | Medium |
+## Simulation
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [2390-removing-stars-from-a-string](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/2390-removing-stars-from-a-string/) | Medium |
 <!---LeetCode Topics End-->
