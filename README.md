@@ -32,6 +32,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0300-longest-increasing-subsequence](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0300-longest-increasing-subsequence/) | Medium |
 | [0322-coin-change](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0322-coin-change/) | Medium |
 | [0392-is-subsequence](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0392-is-subsequence/) | Easy |
+| [0416-partition-equal-subset-sum](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0416-partition-equal-subset-sum/) | Medium |
 | [0435-non-overlapping-intervals](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0435-non-overlapping-intervals/) | Medium |
 | [0509-fibonacci-number](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0509-fibonacci-number/) | Easy |
 | [0740-delete-and-earn](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0740-delete-and-earn/) | Medium |
@@ -78,6 +79,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0300-longest-increasing-subsequence](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0300-longest-increasing-subsequence/) | Medium |
 | [0322-coin-change](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0322-coin-change/) | Medium |
 | [0347-top-k-frequent-elements](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0347-top-k-frequent-elements/) | Medium |
+| [0416-partition-equal-subset-sum](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0416-partition-equal-subset-sum/) | Medium |
 | [0435-non-overlapping-intervals](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0435-non-overlapping-intervals/) | Medium |
 | [0540-single-element-in-a-sorted-array](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0540-single-element-in-a-sorted-array/) | Medium |
 | [0740-delete-and-earn](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0740-delete-and-earn/) | Medium |
