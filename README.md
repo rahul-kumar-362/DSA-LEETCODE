@@ -14,6 +14,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0509-fibonacci-number](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0509-fibonacci-number/) | Easy |
 | [1137-n-th-tribonacci-number](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/1137-n-th-tribonacci-number/) | Easy |
 | [1248-count-number-of-nice-subarrays](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/1248-count-number-of-nice-subarrays/) | Medium |
+| [2965-find-missing-and-repeated-values](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/2965-find-missing-and-repeated-values/) | Easy |
 | [3658-gcd-of-odd-and-even-sums](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/3658-gcd-of-odd-and-even-sums/) | Easy |
 ## Dynamic Programming
 | Problem Name | Difficulty |
@@ -91,6 +92,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0992-subarrays-with-k-different-integers](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0992-subarrays-with-k-different-integers/) | Hard |
 | [0994-rotting-oranges](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0994-rotting-oranges/) | Medium |
 | [1248-count-number-of-nice-subarrays](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/1248-count-number-of-nice-subarrays/) | Medium |
+| [2965-find-missing-and-repeated-values](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/2965-find-missing-and-repeated-values/) | Easy |
 ## Matrix
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -101,6 +103,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0174-dungeon-game](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0174-dungeon-game/) | Hard |
 | [0240-search-a-2d-matrix-ii](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0240-search-a-2d-matrix-ii/) | Medium |
 | [0994-rotting-oranges](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0994-rotting-oranges/) | Medium |
+| [2965-find-missing-and-repeated-values](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/2965-find-missing-and-repeated-values/) | Easy |
 ## Divide and Conquer
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -204,6 +207,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0992-subarrays-with-k-different-integers](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0992-subarrays-with-k-different-integers/) | Hard |
 | [1248-count-number-of-nice-subarrays](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/1248-count-number-of-nice-subarrays/) | Medium |
 | [1781-sum-of-beauty-of-all-substrings](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/1781-sum-of-beauty-of-all-substrings/) | Medium |
+| [2965-find-missing-and-repeated-values](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/2965-find-missing-and-repeated-values/) | Easy |
 ## Sliding Window
 | Problem Name | Difficulty |
 | ------- | ------- |
