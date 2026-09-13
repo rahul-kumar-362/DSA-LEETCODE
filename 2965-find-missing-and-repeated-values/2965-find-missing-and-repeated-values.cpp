@@ -1,33 +1,51 @@
 class Solution {
 public:
-    //General solution 
+    // General solution
 
     vector<int> findMissingAndRepeatedValues(vector<vector<int>>& grid) {
 
-
         int repeating = -1;
         int missing = -1;
-        unordered_map<int,int>mpp;
+
         int n = grid[0].size();
         int m = grid.size();
-        for(int i=0;i<n;i++){
-            for(int j=0;j<m;j++){
-                mpp[grid[i][j]]++;
+        int N = m * n;
+
+        // Expected Sum
+        long long Sn = 1LL * N * (N + 1) / 2;
+
+        // Actual Sum from Grid
+        long long S = 0;
+        for (int i = 0; i < m; i++) {
+            for (int j = 0; j < n; j++) {
+                S += grid[i][j];
             }
         }
 
+        // Expected Sum of Squares
+        long long Sn2 = 1LL * N * (N + 1) * (2 * N + 1) / 6;
 
-        for(auto i : mpp){
-            if(i.second == 2) repeating = i.first; 
-        }
-
-        for(int i=1;i<=m*n;i++){
-            if(!mpp.count(i)){
-                missing = i;
-                break;
+        // Actual Sum of Squares from Grid
+        long long S2 = 0;
+        for (int i = 0; i < m; i++) {
+            for (int j = 0; j < n; j++) {
+                S2 += 1LL * grid[i][j] * grid[i][j];
             }
         }
 
-        return {repeating,missing};
+        // (X - Y) = Repeating - Missing
+        long long temp = S - Sn;
+
+        // Getting X² - Y²
+        long long val = S2 - Sn2;
+
+        // Hence X + Y
+        long long ans = val / temp;
+
+        // Solving the two equations
+        repeating = (temp + ans) / 2;
+        missing = repeating - temp;
+
+        return {repeating, missing};
     }
 };
