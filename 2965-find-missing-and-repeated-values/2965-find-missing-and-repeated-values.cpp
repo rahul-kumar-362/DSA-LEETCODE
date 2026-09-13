@@ -43,7 +43,10 @@ public:
         long long ans = val / temp;
 
         // Solving the two equations
-        repeating = (temp + ans) / 2;
+        repeating = (temp + ans) / 2;  
+        
+        //(X−Y)+(X+Y)=temp+ans
+        //2X=temp+ans
         missing = repeating - temp;
 
         return {repeating, missing};
