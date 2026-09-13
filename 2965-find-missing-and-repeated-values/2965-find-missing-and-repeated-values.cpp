@@ -11,44 +11,73 @@ public:
         int m = grid.size();
         int N = m * n;
 
-        // Expected Sum
-        long long Sn = 1LL * N * (N + 1) / 2;
+        //X->Repeating
+        //Y->Missing
 
-        // Actual Sum from Grid
-        long long S = 0;
-        for (int i = 0; i < m; i++) {
-            for (int j = 0; j < n; j++) {
-                S += grid[i][j];
+        //first Xor All
+        //1 to N & all in the vector  ----Remaining will be X^Y
+
+        int Xor = 0;//since 0 se fark nahi padta
+
+        for(int i=0;i<m;i++){
+            for(int j=0;j<n;j++){
+                Xor^=grid[i][j];
             }
         }
 
-        // Expected Sum of Squares
-        long long Sn2 = 1LL * N * (N + 1) * (2 * N + 1) / 6;
+        for(int i=1;i<=N;i++){
+            Xor^=i;
+        }
 
-        // Actual Sum of Squares from Grid
-        long long S2 = 0;
-        for (int i = 0; i < m; i++) {
-            for (int j = 0; j < n; j++) {
-                S2 += 1LL * grid[i][j] * grid[i][j];
+
+        //Since 2 different no.
+        //Different AT atleast 1 bit 🙂
+
+        //HENCE , take any setbit  and MAKE 2 BUCKETS A&B 
+
+        //CONCEPT - > Others WIll occur Even No, of times and IT occur Odd no. of times
+
+
+
+        int setBit = Xor & (-Xor); // Xor ka sabse right wala bit nikal LO...
+
+        int bucket1 = 0;
+        int bucket2 = 0;
+
+        // Divide grid numbers into 2 buckets
+        for(int i = 0; i < n; i++){
+            for(int j = 0; j < n; j++){
+                if(grid[i][j] & setBit)
+                    bucket1 ^= grid[i][j];
+                else
+                    bucket2 ^= grid[i][j];
             }
         }
 
-        // (X - Y) = Repeating - Missing
-        long long temp = S - Sn;
+        // Divide 1...N into same buckets
+        for(int i = 1; i <= N; i++){
+            if(i & setBit)
+                bucket1 ^= i;
+            else
+                bucket2 ^= i;
+        }
 
-        // Getting X² - Y²
-        long long val = S2 - Sn2;
+        // bucket1 and bucket2 are X and Y (order unknown)
 
-        // Hence X + Y
-        long long ans = val / temp;
+        for(auto &row : grid){
+            for(int num : row){
+                if(num == bucket1){
+                    repeating = bucket1;
+                    missing = bucket2;
+                    return {repeating, missing};
+                }
+            }
+        }
 
-        // Solving the two equations
-        repeating = (temp + ans) / 2;  
-        
-        //(X−Y)+(X+Y)=temp+ans
-        //2X=temp+ans
-        missing = repeating - temp;
+        repeating = bucket2;//ELSE case
+        missing = bucket1;
 
         return {repeating, missing};
     }
+
 };
