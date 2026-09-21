@@ -1,17 +1,19 @@
 class Solution {
 public:
     int maxProfit(vector<int>& prices) {
-        int maxi = 0;
+        //brute force
         int n = prices.size();
-        //pichle se best lete chalo
-        int bestbuy = prices[0];
-
-        for(int i=1;i<n;i++){
-            if(prices[i]>bestbuy){//potential
-                maxi = max(maxi,prices[i]-bestbuy);
-            }
-            bestbuy = min(bestbuy,prices[i]); //minimum leke ghumte raho
+        vector<int>maxi(n,0);
+        maxi[n-1] = prices[n-1]; 
+        for(int i=n-2;i>=0;i--){
+            maxi[i]= max(prices[i],maxi[i+1]);
         }
-        return maxi;
+
+        int ans =0;
+        for(int i=0;i<n;i++){
+            int curr = maxi[i]-prices[i];
+            ans=max(ans,curr);
+        }
+        return ans;
     }
 };
