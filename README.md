@@ -62,6 +62,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0047-permutations-ii](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0047-permutations-ii/) | Medium |
 | [0048-rotate-image](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0048-rotate-image/) | Medium |
 | [0053-maximum-subarray](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0053-maximum-subarray/) | Medium |
+| [0054-spiral-matrix](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0054-spiral-matrix/) | Medium |
 | [0057-insert-interval](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0057-insert-interval/) | Medium |
 | [0073-set-matrix-zeroes](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0073-set-matrix-zeroes/) | Medium |
 | [0074-search-a-2d-matrix](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0074-search-a-2d-matrix/) | Medium |
@@ -98,6 +99,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0048-rotate-image](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0048-rotate-image/) | Medium |
+| [0054-spiral-matrix](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0054-spiral-matrix/) | Medium |
 | [0073-set-matrix-zeroes](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0073-set-matrix-zeroes/) | Medium |
 | [0074-search-a-2d-matrix](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0074-search-a-2d-matrix/) | Medium |
 | [0079-word-search](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0079-word-search/) | Medium |
@@ -396,6 +398,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Simulation
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0054-spiral-matrix](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0054-spiral-matrix/) | Medium |
 | [2149-rearrange-array-elements-by-sign](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/2149-rearrange-array-elements-by-sign/) | Medium |
 | [2390-removing-stars-from-a-string](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/2390-removing-stars-from-a-string/) | Medium |
 ## Database
