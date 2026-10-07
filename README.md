@@ -9,6 +9,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0029-divide-two-integers](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0029-divide-two-integers/) | Medium |
 | [0048-rotate-image](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0048-rotate-image/) | Medium |
 | [0062-unique-paths](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0062-unique-paths/) | Medium |
+| [0069-sqrtx](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0069-sqrtx/) | Easy |
 | [0070-climbing-stairs](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0070-climbing-stairs/) | Easy |
 | [0204-count-primes](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0204-count-primes/) | Medium |
 | [0509-fibonacci-number](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0509-fibonacci-number/) | Easy |
@@ -183,6 +184,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0004-median-of-two-sorted-arrays](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0004-median-of-two-sorted-arrays/) | Hard |
+| [0069-sqrtx](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0069-sqrtx/) | Easy |
 | [0074-search-a-2d-matrix](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0074-search-a-2d-matrix/) | Medium |
 | [0240-search-a-2d-matrix-ii](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0240-search-a-2d-matrix-ii/) | Medium |
 | [0300-longest-increasing-subsequence](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0300-longest-increasing-subsequence/) | Medium |
@@ -424,4 +426,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1683-invalid-tweets](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/1683-invalid-tweets/) | Easy |
 | [1757-recyclable-and-low-fat-products](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/1757-recyclable-and-low-fat-products/) | Easy |
 | [1978-employees-whose-manager-left-the-company](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/1978-employees-whose-manager-left-the-company/) | Easy |
+## Newton's Method
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0069-sqrtx](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0069-sqrtx/) | Easy |
 <!---LeetCode Topics End-->
