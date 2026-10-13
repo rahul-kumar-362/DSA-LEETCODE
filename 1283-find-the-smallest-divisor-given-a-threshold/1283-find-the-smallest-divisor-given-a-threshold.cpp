@@ -28,12 +28,12 @@ public:
             }
             if(sum<=threshold){//valid...toh reduce
                 end = mid - 1;
-                mini = min(mini,mid);//SINCE WANT SMALLEST DIVISOR NOT SMALLEST SUM
+               // mini = min(mini,mid);//SINCE WANT SMALLEST DIVISOR NOT SMALLEST SUM
             }
             else {//invalid  then  eliminate left side
                 st = mid + 1;
             }
         }
-        return mini;
+        return st;//always ans st
     }
 };
