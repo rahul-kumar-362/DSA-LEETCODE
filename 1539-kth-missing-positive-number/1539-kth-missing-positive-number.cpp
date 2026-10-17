@@ -28,8 +28,13 @@ public:
         // cout<<F<<" "<<L; 
 
 
+
+        if(F==-1)return k;//E.g [5,6,7,8] toh pehle hoga ANSWER...
+
+
         //AGAR baadme hoga toh EASY
-        if(L==-1)return nums[n-1] + (k-missingNo);
+        int missingLast = nums[n-1]-n;//Last tak ka missing
+        if(L==-1)return nums[n-1] + (k-missingLast);
 
         else{//answer LIE IN BETWEEN
             return F+(k-missingNo) ;//for answer
