@@ -18,5 +18,8 @@ public:
             }
         }
         return st + k;
+        //since nums[n-1]+(k-missingLast) is Answer
+        //nums[n-1]+ (k - (nums[n-1]-n));
+        //k+n aur last mai st = n
     }
 };
