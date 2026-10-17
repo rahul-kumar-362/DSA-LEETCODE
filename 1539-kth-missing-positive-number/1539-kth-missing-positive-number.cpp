@@ -4,13 +4,6 @@ public:
         //I CAN TRY TO FIND 2 INDEXES BETWEEN WHICH ANSWER LIES...
         int n = nums.size();
 
-        if(n==1){
-            if(nums[0]>k)return 1;
-            else{
-                return k+1; 
-            }
-        }
-
         //MY BINARY SEARCH
         int st = 0;
         int end = n-1;
