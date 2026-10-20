@@ -4,8 +4,8 @@ public:
         int n = nums.size();
         //if 4 - 5 then LINEAR line,hence peak on RIGHT
         //ulta toh ULTA...
-        int st = 0;
-        int end = n-1;
+        int st = 1;
+        int end = n-2;
         if(n==1)return 0;
         if(nums[0]>nums[1])return 0;
         if(nums[n-1]>nums[n-2])return n-1;
