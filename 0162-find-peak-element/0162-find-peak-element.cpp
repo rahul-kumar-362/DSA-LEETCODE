@@ -18,7 +18,7 @@ public:
             if(nums[mid]>nums[mid-1] && nums[mid]>nums[mid+1]){
                 return mid;
             }
-            else if(nums[mid]>nums[mid-1]){// && nums[mid]<nums[mid2]){
+            else if(nums[mid]>nums[mid-1] && nums[mid]<nums[mid+1]){
                 st = mid+1;
             }
             else{//nums[mid]>nums[mid+1]
