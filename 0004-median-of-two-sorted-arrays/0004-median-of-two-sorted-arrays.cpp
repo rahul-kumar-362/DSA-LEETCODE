@@ -31,7 +31,7 @@ public:
                 }
             }
             else if(l1>r2){
-                end = mid1 - 1;//PRUNE RIGHT
+                end = mid1 - 1;//PRUNE RIGHT of smallest arr
             }
             else if(l2>r1){
                 st = mid1 + 1;//PRUNE LEFT
