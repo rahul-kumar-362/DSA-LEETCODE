@@ -103,6 +103,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1248-count-number-of-nice-subarrays](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/1248-count-number-of-nice-subarrays/) | Medium |
 | [1482-minimum-number-of-days-to-make-m-bouquets](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/1482-minimum-number-of-days-to-make-m-bouquets/) | Medium |
 | [1539-kth-missing-positive-number](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/1539-kth-missing-positive-number/) | Easy |
+| [1901-find-a-peak-element-ii](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/1901-find-a-peak-element-ii/) | Medium |
 | [2149-rearrange-array-elements-by-sign](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/2149-rearrange-array-elements-by-sign/) | Medium |
 | [2965-find-missing-and-repeated-values](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/2965-find-missing-and-repeated-values/) | Easy |
 ## Matrix
@@ -116,6 +117,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0174-dungeon-game](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0174-dungeon-game/) | Hard |
 | [0240-search-a-2d-matrix-ii](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0240-search-a-2d-matrix-ii/) | Medium |
 | [0994-rotting-oranges](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0994-rotting-oranges/) | Medium |
+| [1901-find-a-peak-element-ii](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/1901-find-a-peak-element-ii/) | Medium |
 | [2965-find-missing-and-repeated-values](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/2965-find-missing-and-repeated-values/) | Easy |
 ## Divide and Conquer
 | Problem Name | Difficulty |
@@ -206,6 +208,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1011-capacity-to-ship-packages-within-d-days](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/1011-capacity-to-ship-packages-within-d-days/) | Medium |
 | [1482-minimum-number-of-days-to-make-m-bouquets](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/1482-minimum-number-of-days-to-make-m-bouquets/) | Medium |
 | [1539-kth-missing-positive-number](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/1539-kth-missing-positive-number/) | Easy |
+| [1901-find-a-peak-element-ii](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/1901-find-a-peak-element-ii/) | Medium |
 ## Bit Manipulation
 | Problem Name | Difficulty |
 | ------- | ------- |
