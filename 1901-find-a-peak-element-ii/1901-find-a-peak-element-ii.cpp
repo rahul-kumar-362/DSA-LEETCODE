@@ -1,7 +1,7 @@
 class Solution {
 public:
 
-    int maxIdx(vector<vector<int>>&mat,int mid){
+    int maxIdx(vector<vector<int>>&mat,int mid){//T.C.----O(NlogM)
         int n = mat.size();
         int maxi = -1;
         int maxiD = 0;
