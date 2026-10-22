@@ -21,6 +21,7 @@ public:
 
             temp = currn;
         }
-        return prev;//wahi head;
+        head = prev;
+        return head;//wahi head;
     }
 };
