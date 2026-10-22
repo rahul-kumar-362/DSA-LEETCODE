@@ -141,6 +141,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0344-reverse-string](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0344-reverse-string/) | Easy |
 | [0392-is-subsequence](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0392-is-subsequence/) | Easy |
 | [0541-reverse-string-ii](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0541-reverse-string-ii/) | Easy |
+| [0876-middle-of-the-linked-list](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0876-middle-of-the-linked-list/) | Easy |
 | [2149-rearrange-array-elements-by-sign](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/2149-rearrange-array-elements-by-sign/) | Medium |
 ## Stack
 | Problem Name | Difficulty |
@@ -283,6 +284,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0206-reverse-linked-list](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0206-reverse-linked-list/) | Easy |
 | [0237-delete-node-in-a-linked-list](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0237-delete-node-in-a-linked-list/) | Medium |
 | [0328-odd-even-linked-list](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0328-odd-even-linked-list/) | Medium |
+| [0876-middle-of-the-linked-list](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0876-middle-of-the-linked-list/) | Easy |
 ## Enumeration
 | Problem Name | Difficulty |
 | ------- | ------- |
