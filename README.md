@@ -280,6 +280,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0083-remove-duplicates-from-sorted-list](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0083-remove-duplicates-from-sorted-list/) | Easy |
 | [0206-reverse-linked-list](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0206-reverse-linked-list/) | Easy |
 | [0237-delete-node-in-a-linked-list](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0237-delete-node-in-a-linked-list/) | Medium |
+| [0328-odd-even-linked-list](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0328-odd-even-linked-list/) | Medium |
 ## Enumeration
 | Problem Name | Difficulty |
 | ------- | ------- |
