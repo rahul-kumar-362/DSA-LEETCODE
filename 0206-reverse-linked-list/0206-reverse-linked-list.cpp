@@ -10,6 +10,7 @@
  */
 class Solution {
 public:
+    //BRUTE FORCE IS  USING STACK AND REVERSE
     ListNode* reverseList(ListNode* head) {
         ListNode * temp = head;
         ListNode * prev = NULL;
