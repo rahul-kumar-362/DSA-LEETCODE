@@ -17,21 +17,6 @@ public:
 
         int carry = 0;
 
-        if(temp1 && temp2){//SABSE PEHLA STORE
-           // max toh left DIGIT 1 hi hoga yaha coz 18----
-            int num = temp1->val + temp2->val;
-
-            if(num>9){
-                carry = num / 10;//YE JO BACHA WO CARRY HOGA
-            }
-            int  ld = num % 10;//LAST DIGIT LELIYA
-            ListNode *newNode1 = new ListNode(ld);
-
-            head = newNode1;//LELIYA HEAD
-
-            temp1 = temp1->next;
-            temp2 = temp2->next;
-        }
         ListNode * temp = head;
         while(temp1 || temp2){
             int num = 0;
@@ -64,6 +49,6 @@ public:
             ListNode* lastNode= new ListNode(carry);
             temp->next = lastNode;
         }
-        return head;
+        return head->next;
     }
 };
