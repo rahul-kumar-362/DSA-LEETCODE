@@ -31,11 +31,11 @@ public:
             }
             
             
-            if(carry>0){
+            if(carry>0){//PEHLE CARRY ADD...
                 num+=carry;
             }
             
-                carry = num / 10;
+                carry = num / 10;//CURRENT  Carry ki value
             
             
             int  ld = num % 10;//LAST DIGIT LELIYA
@@ -45,7 +45,7 @@ public:
            
         }
 
-        if(carry>0){
+        if(carry>0){//FOR LAST CASE
             ListNode* lastNode= new ListNode(carry);
             temp->next = lastNode;
         }
