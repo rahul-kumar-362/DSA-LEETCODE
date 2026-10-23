@@ -18,7 +18,7 @@ public:
         int carry = 0;
 
         ListNode * temp = head;
-        while(temp1 || temp2){
+        while(temp1 || temp2 || carry > 0){
             int num = 0;
              if(temp1){
                 num+=temp1->val;
@@ -45,10 +45,10 @@ public:
            
         }
 
-        if(carry>0){//FOR LAST CASE
-            ListNode* lastNode= new ListNode(carry);
-            temp->next = lastNode;
-        }
+        // if(carry>0){//FOR LAST CASE
+        //     ListNode* lastNode= new ListNode(carry);
+        //     temp->next = lastNode;
+        // }
         return head->next;
     }
 };
