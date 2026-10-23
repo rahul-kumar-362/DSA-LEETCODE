@@ -45,10 +45,6 @@ public:
            
         }
 
-        // if(carry>0){//FOR LAST CASE
-        //     ListNode* lastNode= new ListNode(carry);
-        //     temp->next = lastNode;
-        // }
         return head->next;
     }
 };
