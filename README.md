@@ -139,6 +139,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0042-trapping-rain-water](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0042-trapping-rain-water/) | Hard |
 | [0061-rotate-list](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0061-rotate-list/) | Medium |
 | [0141-linked-list-cycle](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0141-linked-list-cycle/) | Easy |
+| [0160-intersection-of-two-linked-lists](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0160-intersection-of-two-linked-lists/) | Easy |
 | [0234-palindrome-linked-list](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0234-palindrome-linked-list/) | Easy |
 | [0344-reverse-string](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0344-reverse-string/) | Easy |
 | [0392-is-subsequence](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0392-is-subsequence/) | Easy |
@@ -230,6 +231,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0017-letter-combinations-of-a-phone-number](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0017-letter-combinations-of-a-phone-number/) | Medium |
 | [0073-set-matrix-zeroes](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0073-set-matrix-zeroes/) | Medium |
 | [0141-linked-list-cycle](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0141-linked-list-cycle/) | Easy |
+| [0160-intersection-of-two-linked-lists](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0160-intersection-of-two-linked-lists/) | Easy |
 | [0347-top-k-frequent-elements](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0347-top-k-frequent-elements/) | Medium |
 | [0424-longest-repeating-character-replacement](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0424-longest-repeating-character-replacement/) | Medium |
 | [0740-delete-and-earn](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0740-delete-and-earn/) | Medium |
@@ -287,6 +289,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0061-rotate-list](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0061-rotate-list/) | Medium |
 | [0083-remove-duplicates-from-sorted-list](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0083-remove-duplicates-from-sorted-list/) | Easy |
 | [0141-linked-list-cycle](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0141-linked-list-cycle/) | Easy |
+| [0160-intersection-of-two-linked-lists](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0160-intersection-of-two-linked-lists/) | Easy |
 | [0206-reverse-linked-list](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0206-reverse-linked-list/) | Easy |
 | [0234-palindrome-linked-list](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0234-palindrome-linked-list/) | Easy |
 | [0237-delete-node-in-a-linked-list](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0237-delete-node-in-a-linked-list/) | Medium |
