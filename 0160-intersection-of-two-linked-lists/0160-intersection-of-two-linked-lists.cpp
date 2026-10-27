@@ -1,35 +1,28 @@
-
+/**
+ * Definition for singly-linked list.
+ * struct ListNode {
+ *     int val;
+ *     ListNode *next;
+ *     ListNode(int x) : val(x), next(NULL) {}
+ * };
+ */
 class Solution {
-public:
+public://BRUTE FORCE USING MAP AND HASHING
     ListNode *getIntersectionNode(ListNode *headA, ListNode *headB) {
+        unordered_map<ListNode*,int>mpp;
+        ListNode*temp1 = headA;
+        ListNode*temp2 = headB;
 
-//         Complexity
-// - Time: O(n + m)
-// - Auxiliary Space: O(1)
-        if(headA == NULL || headB == NULL) return NULL;
-
-        ListNode* skipA = headA;
-        ListNode* skipB = headB;
-
-        while(skipA != skipB) {//JABTAK SAME NAHI....
-            if(skipA == NULL) {
-                skipA = headB;
-            }
-            else {
-                skipA = skipA->next;
-            }
-
-            if(skipB == NULL) {
-                skipB = headA;
-            }
-            else {
-                skipB = skipB->next;
-            }
+        while(temp1){
+            mpp[temp1]++;
+            temp1 = temp1->next;
         }
-
-        return skipA;
-
-        //JABTAK INTERSECTION MIL NAHI JAATA LOOP
-        //DONO NULL PAR MILENGE TOH TERMINATE...
+        while(temp2){
+            if(mpp.count(temp2)){//AGAR same node aaya toh pehla return
+                return temp2;
+            }
+            temp2 = temp2->next;
+        }
+        return NULL;
     }
 };
