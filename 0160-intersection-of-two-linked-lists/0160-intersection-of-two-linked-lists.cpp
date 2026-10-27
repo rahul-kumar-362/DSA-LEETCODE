@@ -11,7 +11,7 @@ public:
         ListNode* skipA = headA;
         ListNode* skipB = headB;
 
-        while(skipA != skipB) {
+        while(skipA != skipB) {//JABTAK SAME NAHI....
             if(skipA == NULL) {
                 skipA = headB;
             }
@@ -28,5 +28,8 @@ public:
         }
 
         return skipA;
+
+        //JABTAK INTERSECTION MIL NAHI JAATA LOOP
+        //DONO NULL PAR MILENGE TOH TERMINATE...
     }
 };
