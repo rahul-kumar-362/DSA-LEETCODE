@@ -7,19 +7,28 @@
  * };
  */
 class Solution {
-public://BRUTE FORCE USING hashing...
-    ListNode *detectCycle(ListNode *head) {
-        if(!head || !head->next)return NULL;//0 ya 1 size LL ke liye...
-        unordered_map<ListNode*,int>mpp;
-        ListNode*temp = head;
-        mpp[temp]++;//1 daldiya 
-        temp = temp->next;
-        while(temp){
-            if(mpp.count(temp)){//Pehle se hai toh return 
-                return temp;
+public:
+    ListNode *detectCycle(ListNode *head) {//FLOYD CYCLE KA LAFDA ALGORITHM...
+        if(head ==NULL || head->next == NULL)return NULL;
+        ListNode*fast = head;
+        ListNode*slow = head;
+
+        if(fast && fast->next){
+            fast = fast->next->next;
+            slow = slow->next;
+        }
+        while(fast && fast->next){
+            if(fast == slow){
+                //yaha par baat par gaur kare MATHS se nikalenge 1st appearance...
+                slow = head;
+                while(slow!=fast){
+                    slow = slow->next;
+                    fast = fast->next;
+                }
+                return slow;
             }
-            mpp[temp]++;//NAHI TOH DAALDO AAGE KE LIYE...
-            temp = temp->next;//agar Last tak pohcha toh
+            fast = fast->next->next;
+            slow = slow->next;
         }
         return NULL;
     }
