@@ -9,38 +9,52 @@
  * };
  */
 class Solution {
-public://BRUTE FORCE...
+public:
+    ListNode* reverseList(ListNode* &temp1,ListNode*&temp2) {
+        // ListNode * temp = head;
+        ListNode* stop  = temp2->next;//REVERSING KE TIME CHANGE HOJAYEGA isliye STORE
+
+        ListNode * prev = stop;//AAGE WALA STORE KARKE RAKH...KAAM AAYEGA 
+
+        while(temp1 && temp1!=stop){//TEMP1 exist karna Chahiye
+            ListNode*currn = temp1->next;
+            temp1->next = prev;//prev lelenge...
+            prev = temp1;//ye prev banjayega kisi aur ka...
+
+            temp1 = currn;
+        }
+        //head = prev;
+        return prev;//wahi head;
+    }
     ListNode* reverseKGroup(ListNode* head, int k) {
-        stack<ListNode*>st;
-        ListNode*temp = head;
-        ListNode* ans = new ListNode(0);//dummy Node...
-        ListNode*temp2 = ans;
+        ListNode*temp1 = head;
+        ListNode*temp2 = head;
         int curr = 0;
-        while(temp){
+        ListNode* ans = new ListNode(0);
+        ans->next = head; // FIX: incomplete group bhi connected rahega if n<K
+        ListNode* chut = ans;
+
+        while(temp2){
             curr++;
-            st.push(temp);
-            temp = temp->next;
             if(curr == k){
-                curr = 0;//reinitialise
-                while(!st.empty()){
-                    temp2->next = st.top();
-                    temp2 = st.top();
-                    st.pop();
-                }
+                curr = 0;
+                ListNode* groupStart = temp1;//REVERSE KARNE SE PEHLE KA HEAD .. BAAD KA TAIL...
+
+                ListNode* nextGroup = temp2->next; // Aage Ka store  Karlia reverse se Pehle
+
+                ListNode* newHead = reverseList(temp1, temp2);
+                ans->next = newHead;
+                ans = groupStart;
+                //temp1 --> temp2 BANGAYA HAI...
+                temp2 = nextGroup;//BADALDIA BKL
+
+                // continue;//TAAKI temp2  ke NICHE ki Value se FARK  NA PADE
+            }
+            else{
+                temp2 = temp2 -> next;
             }
         }
-        //LAST MAI ADD sidha sidha
-        stack<ListNode*>st2;
-        while(!st.empty()){
-            st2.push(st.top());
-            st.pop();
-        }
-        while(!st2.empty()){
-            temp2->next = st2.top();
-            temp2 = st2.top();
-            st2.pop();
-        }
-        temp2->next = NULL;//TAAKI LAST MAI PROBLEM NA AAYE...
-        return ans->next;
+        
+        return chut->next;//KYUKI ANSWER TO BADHTA JAA RAHA HAI
     }
 };
