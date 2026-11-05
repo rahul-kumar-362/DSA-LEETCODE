@@ -126,6 +126,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0004-median-of-two-sorted-arrays](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0004-median-of-two-sorted-arrays/) | Hard |
 | [0053-maximum-subarray](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0053-maximum-subarray/) | Medium |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0108-convert-sorted-array-to-binary-search-tree/) | Easy |
+| [0148-sort-list](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0148-sort-list/) | Medium |
 | [0240-search-a-2d-matrix-ii](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0240-search-a-2d-matrix-ii/) | Medium |
 | [0347-top-k-frequent-elements](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0347-top-k-frequent-elements/) | Medium |
 ## Two Pointers
@@ -140,6 +141,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0061-rotate-list](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0061-rotate-list/) | Medium |
 | [0141-linked-list-cycle](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0141-linked-list-cycle/) | Easy |
 | [0142-linked-list-cycle-ii](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0142-linked-list-cycle-ii/) | Medium |
+| [0148-sort-list](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0148-sort-list/) | Medium |
 | [0160-intersection-of-two-linked-lists](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0160-intersection-of-two-linked-lists/) | Easy |
 | [0234-palindrome-linked-list](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0234-palindrome-linked-list/) | Easy |
 | [0344-reverse-string](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0344-reverse-string/) | Easy |
@@ -294,6 +296,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0083-remove-duplicates-from-sorted-list](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0083-remove-duplicates-from-sorted-list/) | Easy |
 | [0141-linked-list-cycle](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0141-linked-list-cycle/) | Easy |
 | [0142-linked-list-cycle-ii](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0142-linked-list-cycle-ii/) | Medium |
+| [0148-sort-list](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0148-sort-list/) | Medium |
 | [0160-intersection-of-two-linked-lists](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0160-intersection-of-two-linked-lists/) | Easy |
 | [0206-reverse-linked-list](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0206-reverse-linked-list/) | Easy |
 | [0234-palindrome-linked-list](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0234-palindrome-linked-list/) | Easy |
@@ -350,6 +353,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0015-3sum](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0015-3sum/) | Medium |
 | [0018-4sum](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0018-4sum/) | Medium |
 | [0047-permutations-ii](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0047-permutations-ii/) | Medium |
+| [0148-sort-list](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0148-sort-list/) | Medium |
 | [0347-top-k-frequent-elements](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0347-top-k-frequent-elements/) | Medium |
 | [0435-non-overlapping-intervals](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0435-non-overlapping-intervals/) | Medium |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0987-vertical-order-traversal-of-a-binary-tree/) | Hard |
@@ -483,4 +487,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- | ------- |
 | [0141-linked-list-cycle](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0141-linked-list-cycle/) | Easy |
 | [0142-linked-list-cycle-ii](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0142-linked-list-cycle-ii/) | Medium |
+## Merge Sort
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0148-sort-list](https://github.com/rahul-kumar-362/DSA-LEETCODE/tree/main/0148-sort-list/) | Medium |
 <!---LeetCode Topics End-->
